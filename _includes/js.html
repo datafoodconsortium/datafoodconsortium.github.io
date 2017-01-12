@@ -15,3 +15,12 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+
+    <script src="{{ "/js/readmore.js" | prepend: site.baseurl }}"></script>
+
+    <script> 
+   $('article').readmore({
+  collapsedHeight: 150,
+  speed: 300
+});
+    </script>

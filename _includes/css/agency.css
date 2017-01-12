@@ -1,17 +1,14 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Nunito","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .text-muted {
-    #{{ site.data.template.color.muted }};
+    #{{ site.data.template.color.primary }};
+font-size: 14px;
 }
 
 .text-primary {
@@ -19,7 +16,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -59,6 +56,16 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+}
+.img-logo{
+    margin-top:-25px;
+    max-height:70px;
+}
+@media(max-width:768px) {
+    .img-logo{
+        max-height: 50px;
+        margin-top:-15px;
+    }
 }
 
 .bg-light-gray {
@@ -120,7 +127,6 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -128,6 +134,9 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
 }
 
 .btn-xl:hover,
@@ -135,7 +144,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
@@ -176,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Gotham","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -288,7 +296,7 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 30px;
 }
 
 header .intro-text .intro-heading {
@@ -309,9 +317,9 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 50px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 60px;
     }
 
     header .intro-text .intro-heading {
@@ -339,8 +347,8 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 25px;
 }
 
 @media(min-width:768px) {
@@ -632,26 +640,6 @@ section h3.section-subheading {
     }
 }
 
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
 aside.clients img {
     margin: 50px auto;
 }
@@ -681,7 +669,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 150px;
 }
 
 section#contact .form-control:focus {
@@ -865,3 +853,27 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+.container-tight{
+    max-width: 950px;
+}
+
+.membre{
+width: 150px ;
+margin: 20px ;
+}
+.website-link{
+    color: #3C3C3C;
+}
+.logo-text{
+   font-family: {{ site.data.template.font.secondary }};
+   font-size: 14px;
+   color: #fefefe;
+   margin-top:20px;
+}
+@media(min-width:768px) {
+    .logo-text{
+   margin-top:8px;
+   font-size: 17px;
+}
+}
+

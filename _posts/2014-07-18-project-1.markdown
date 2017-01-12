@@ -1,15 +1,26 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Exemple
+subtitle: Étude de cas
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2017-01-10
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
 ---
+
+<p>Un exemple concret: </p>
+<br>
+<p style="font-style: italic"> Un maraîcher, Marcel, vend ses légumes à un groupement d'achat <b>G1</b> qui dispose d'une plateforme web (site internet), sur laquelle Marcel gère son catalogue de produits en ligne.
+<br>
+Imaginons maintenant qu'un groupement d'achat <b>G2</b> souhaite aussi distribuer les produits de Marcel via sa propre plateforme web 
+<br>
+Comment G2 accède-t-il au catalogue de Marcel ? Aujourd'hui, les solutions sont loin d'être idéales: 
+<br>
+1 - Marcel doit saisir les mêmes données sur la plateforme de G1 et de G2, le menant à une perte de temps et une gestion des stocks et des commandes compliquées. 
+<br> 
+2 - G1 peut se baser sur le catalogue disponible chez G2. Se posent alors des problématiques de synchronicité du stock (problèmes d’erreurs dues à des synchronisations non instantanées), de fiabilité des données, ainsi que de sécurité.
+<br>
+<br>
+La solution : l'interopérabilité. Plaît-il ? En fait, c'est très simple : pour éviter de compliquer les opérations lorsqu'un même produit est distribué sur plusieurs plateformes, il faut qu'elles communiquent entre elles de manière efficace. <br> Il ne s’agit pas de synchronisation ni d’échanges de données, il s’agit d’affichage croisés de données qui peuvent être hébergées sur n’importe quelle base de données. La donnée n’est pas répliquée, juste affichée, à partir de l’information directement puisée dans la base de donnée source.
+</p>
