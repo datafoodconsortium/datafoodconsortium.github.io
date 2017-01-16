@@ -7,3 +7,5 @@ color:
 font:
   primary: '"Nunito", "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Lato", "Helvetica Neue", Helvetica,Arial,sans-serif'
+header:
+  img: /img/header-bg2.jpg
