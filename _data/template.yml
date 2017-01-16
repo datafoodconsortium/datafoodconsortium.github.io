@@ -1,11 +1,9 @@
-# Color settings (hex-codes without the leading hash-tag)
+---
 color:
   primary: E4CB24
   secondary: CDB61E
   secondary-dark: 3C3C3C
   muted: 383835
-
-# Font Families
 font:
   primary: '"Nunito", "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Lato", "Helvetica Neue", Helvetica,Arial,sans-serif'

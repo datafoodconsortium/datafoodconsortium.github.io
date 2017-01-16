@@ -1,9 +1,9 @@
 ---
 title: Exemple
-subtitle: Étude de cas
+date: '2017-01-10 00:00:00'
+subtitle: "Étude de cas"
 layout: default
 modal-id: 1
-date: 2017-01-10
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
