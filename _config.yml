@@ -12,12 +12,22 @@ social:
   - title: facebook
     url:
   - title: github
-    url: http://github.com/
+    url: https://github.com/datafoodconsortium
 
 collections:
  membres:
   title: membres
   output: false
+
+defaults:
+- scope:
+    path:''
+    type: membres
+  values:
+    nom:''
+    img:''
+    website:''
+
 
 # Build settings
 markdown: kramdown

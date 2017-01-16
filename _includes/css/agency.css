@@ -18,6 +18,7 @@ font-size: 14px;
 p {
     font-size: 16px;
     line-height: 1.75;
+    text-align: justify;
 }
 
 p.large {
@@ -345,7 +346,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-weight: 300;
     line-height: 25px;
@@ -508,6 +509,11 @@ section h3.section-subheading {
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
+.timeline-image i {
+    padding-top: 50px;
+    font-size: 40px;
+    margin-top: -35px;
+}
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
@@ -540,7 +546,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
+    margin-top: 30px;
     color: inherit;
 }
 
@@ -582,6 +588,9 @@ section h3.section-subheading {
         font-size: 13px;
         line-height: 18px;
     }
+    .timeline-image i {
+    margin-top: -25px;
+    }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
@@ -610,6 +619,9 @@ section h3.section-subheading {
         font-size: 18px;
         line-height: 26px;
     }
+    .timeline-image i {
+    margin-top: 0px;
+    }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
@@ -634,7 +646,10 @@ section h3.section-subheading {
     .timeline>li .timeline-image h4 {
         margin-top: 40px;
     }
-
+    .timeline-image i {
+    margin-top: 5px;
+    font-size: 50px;
+    }
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
@@ -669,7 +684,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 150px;
+    height: 155px;
 }
 
 section#contact .form-control:focus {
