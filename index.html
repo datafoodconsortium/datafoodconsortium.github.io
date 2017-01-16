@@ -242,7 +242,7 @@ layout: default
             <ul class="list-inline clearfix">
                 {% for membre in site.membres %}
                     <li class="membre">
-                        <a class="website-link" href="{{ membre.website }}" target="_blank"><img src="%7B%7Bsite.baseurl%7D%7D%7B%7Bmembre.img%7D%7D" class="img-responsive img-team" alt=""></a></li>
+                        <a class="website-link" href="{{ membre.website }}" target="_blank"><img src="{{ site.baseurl }}{{ membre.img }}" class="img-responsive img-team" alt=""></a></li>
                 {% endfor %}
             </ul>
             </div>
