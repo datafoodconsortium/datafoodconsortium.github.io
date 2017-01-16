@@ -66,7 +66,7 @@ layout: default
                         Avec le développement de la foodtech, <b>de plus en plus de services s’opèrent via des outils informatisés:</b> suivi de la production, gestion des parcelles, gestion des catalogues produits, vente en ligne via des outils de e-commerce, facturation, comptabilité, etc.</p>
 
                         <p>
-                        Aujourd’hui, <b>tous ces outils n’utilisent pas de standards commun</b>, les acteurs du système alimentaire sont donc confrontés à des nécessités de saisie multiples, à des problématiques de gestion de stocks et à de nombreuses opérations manuelles pour compenser les incapacités de <b>communication inter-plateformes. </b>
+                        Aujourd’hui, <b>tous ces outils n’utilisent pas de standards communs</b>, les acteurs du système alimentaire sont donc confrontés à des nécessités de saisies multiples, à des problématiques de gestion de stocks et à de nombreuses opérations manuelles pour compenser les incapacités de <b>communication inter-plateformes. </b>
                         </p>
 
                         <br>
@@ -126,7 +126,7 @@ layout: default
 
                
             </div>
-        </div>
+        
     </section>
     <!-- About Section -->
     <section id="about" class="bg-light-gray">
@@ -208,7 +208,7 @@ layout: default
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Que le producteur aie l’outil adapté à son besoin pour gérer sa production et ses ventes, et qu’il puisse choisir de propager son offre, en quantité limitée ou non, via les hubs alimentaires de son choix.</p>
-                        </li>
+                        </div></div></li>
                         
                     </ul>
                 </div>
@@ -234,7 +234,7 @@ layout: default
     </section>
 
     <!-- Team Section -->
-    <section id="team" >
+    <section id="team">
         <div class="container text-center">
                     <h2 class="section-heading">Autour de la table</h2>
                     <h3 class="section-subheading text-muted">Membres du consortium</h3>
@@ -242,12 +242,12 @@ layout: default
             <ul class="list-inline clearfix">
                 {% for membre in site.membres %}
                     <li class="membre">
-                        <a class="website-link" href="{{ membre.website }}" target="_blank"><img src="{{site.baseurl}}{{membre.img}}" class="img-responsive img-team" alt=""></a></li>
+                        <a class="website-link" href="{{ membre.website }}" target="_blank"><img src="%7B%7Bsite.baseurl%7D%7D%7B%7Bmembre.img%7D%7D" class="img-responsive img-team" alt=""></a></li>
                 {% endfor %}
             </ul>
             </div>
             
-        </div>
+        
     </section>
    <section id="contact">
         <div class="container">
@@ -261,22 +261,22 @@ layout: default
 
             <div class="row">
               <div class="col-lg-12">
-                  <form name="sentMessage" id="contactForm" action="http://mailthis.to/datafoodconsortium" novalidate method="post">
+                  
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <input type="text" class="form-control" placeholder="Votre nom *" id="name" name="nom" required data-validation-required-message="Merci d'écrire votre nom">
+                                <input class="form-control" placeholder="Votre nom *" id="name" name="nom" required="" data-validation-required-message="Merci d'écrire votre nom" type="text">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group form-group">
-                                <input type="email" class="form-control" placeholder="Votre adresse email *" id="email" name="email" required data-validation-required-message="Merci d'entrer votre adresse e-mail">
+                                <input class="form-control" placeholder="Votre adresse email *" id="email" name="email" required="" data-validation-required-message="Merci d'entrer votre adresse e-mail" type="email">
                                 <p class="help-block text-danger"></p>
                             </div>
                             
                         </div>
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <textarea class="form-control" placeholder="Votre message *" id="message" name="message" required data-validation-required-message="Écrivez votre message ici"></textarea>
+                                <textarea class="form-control" placeholder="Votre message *" id="message" name="message" required="" data-validation-required-message="Écrivez votre message ici"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -284,16 +284,16 @@ layout: default
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                           
-                            <input type="hidden" name="_replyto" value="%email" id="_replyto">
-                            <input type="hidden" name="_subject" value="Message pour Data Food Consortium" id="_subject">
+                            <input name="_replyto" value="%email" id="_replyto" type="hidden">
+                            <input name="_subject" value="Message pour Data Food Consortium" id="_subject" type="hidden">
                             <!--  <input type="hidden" name="cc[]" value="arthur.koenig@hec.ca">
                             <input type="hidden" name="cc[]" value="turkoenig@hotmail.com"> -->
                             <button type="submit" class="btn btn-xl" value="Send">Envoyer</button>
                         </div>
                     </div>
-                  </form>
+                  
               </div>
           </div>
-    </section>
+    </div></section>
 
   
