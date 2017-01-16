@@ -21,13 +21,12 @@ collections:
 
 defaults:
 - scope:
-    path:''
+    path: ''
     type: membres
   values:
-    nom:''
-    img:''
-    website:''
-
+    nom: ''
+    img: ''
+    website: ''
 
 # Build settings
 markdown: kramdown
