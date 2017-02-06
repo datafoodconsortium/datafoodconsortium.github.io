@@ -139,7 +139,7 @@ layout: default
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Objectifs</h2>
-                    <h3 class="section-subheading text-muted"><b>L'interopérabilité des données : derrière les plateformes, des humains.</b>
+                    <h3 class="section-subheading text-muted"><b>L'interopérabilité des données : au coeur des plateformes, des humains.</b>
 </h3>
                 </div>
             </div>
@@ -241,16 +241,24 @@ layout: default
     <!-- Team Section -->
     <section id="team">
         <div class="container text-center">
-                    <h2 class="section-heading">Autour de la table</h2>
-                    <h3 class="section-subheading text-muted">Membres du consortium</h3>
-            
+            <h2 class="section-heading">Autour de la table</h2>
+            <h3 class="section-subheading text-muted">Membres du consortium</h3>
+             <br>
+            <br>
             <ul class="list-inline clearfix">
                 {% for membre in site.membres %}
                     <li class="membre">
-                        <a class="website-link" href="{{ membre.website }}" target="_blank"><img src="{{ site.baseurl }}{{ membre.img }}" class="img-responsive img-team" alt="{{membre.title}}"></a></li>
+                        <a href="{{ membre.website }}" target="_blank"><img src="{{ site.baseurl }}{{ membre.img }}" class="img-responsive img-team" alt="{{membre.title}}"></a></li>
                 {% endfor %}
             </ul>
-            </div>
+            <br>
+            <h3 class="section-subheading text-muted">Partenaire facilitateur</h3>
+           <ul class="list-inline clearfix">
+                    <li class="membre">
+                      <a href="https://www.virtual-assembly.org/" target="_blank"><img src="{{ site.baseurl }}/img/membres/av.jpg" class="img-responsive" alt="assemblee_virtuelle"></a></li>
+            </ul>
+    
+        </div>
             
         
     </section>
