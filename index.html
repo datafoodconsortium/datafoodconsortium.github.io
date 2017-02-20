@@ -25,17 +25,17 @@ lang: fr
                     {% for menu in site.t[page.lang] %}
                     <li><a class="page-scroll" href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                     {% endfor %}
-                    
+
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
                         <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
                     {% endfor %}
-              
-                </ul> 
+
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-                
+
         <!-- /.container-fluid -->
     </nav>
 
@@ -48,9 +48,9 @@ lang: fr
                 <a href="#enjeux" class="page-scroll btn btn-xl">Pourquoi ?</a>
             </div>
         </div>
-           
+
     </header>
-      
+
 
 
 
@@ -71,18 +71,18 @@ lang: fr
                         <br>
                         <br>
 
-                        
+
                             <article class="text-center">
                 <h4 class="service-heading">Un exemple concret: </h4>
                 <br>
                 <p style="font-style: italic ; text-align: left"> Un maraîcher, Marcel, vend ses légumes à un groupement d'achat <b>"Copains Terre"</b> qui dispose d'une plateforme web (site internet), sur laquelle Marcel gère son catalogue de produits en ligne.
                 <br>
-                Imaginons maintenant qu'un groupement d'achat <b>"Amis des Champs"</b> souhaite aussi distribuer les produits de Marcel via sa propre plateforme web 
+                Imaginons maintenant qu'un groupement d'achat <b>"Amis des Champs"</b> souhaite aussi distribuer les produits de Marcel via sa propre plateforme web
                 <br>
-                Comment Amis des Champs accède-t-il au catalogue de Marcel ? Aujourd'hui, les solutions sont loin d'être idéales: 
+                Comment Amis des Champs accède-t-il au catalogue de Marcel ? Aujourd'hui, les solutions sont loin d'être idéales:
                 <br>
-                1 - Marcel doit saisir les mêmes données sur la plateforme de Copains Terre et d'Amis des Champs, le menant à une perte de temps et une gestion des stocks et des commandes compliquées. 
-                <br> 
+                1 - Marcel doit saisir les mêmes données sur la plateforme de Copains Terre et d'Amis des Champs, le menant à une perte de temps et une gestion des stocks et des commandes compliquées.
+                <br>
                 2 - Amis des Champs peut se baser sur le catalogue disponible chez Copains Terre. Se posent alors des problématiques de synchronicité du stock (problèmes d’erreurs dues à des synchronisations non instantanées), de fiabilité des données, ainsi que de sécurité.
                 <br>
                 <br>
@@ -90,7 +90,7 @@ lang: fr
                 </p>
 
                 </article>
-         
+
                     <br>
                     <br>
                     <br>
@@ -129,9 +129,9 @@ lang: fr
                 </div>
 
 
-               
+
             </div>
-        
+
     </section>
     <!-- objectifs Section -->
     <section id="objectifs" class="bg-light-gray">
@@ -152,7 +152,7 @@ lang: fr
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    
+
                                     <h4 class="subheading">1. Catalogue</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -166,7 +166,7 @@ lang: fr
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                  
+
                                     <h4 class="subheading">2. Commandes</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -180,7 +180,7 @@ lang: fr
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    
+
                                     <h4 class="subheading">3. Communication</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -194,7 +194,7 @@ lang: fr
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                 
+
                                     <h4 class="subheading">4. Transport</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -208,13 +208,13 @@ lang: fr
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                 
+
                                     <h4 class="subheading">5. Choix de l'outil</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Que le producteur aie accès à un outil adapté à son besoin pour gérer sa production et ses ventes, et qu’il puisse propager son offre, en quantité limitée ou non, via les hubs alimentaires de son choix.</p>
                         </div></div></li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -230,7 +230,7 @@ lang: fr
         </p>
          <p>
             Si les données respectent un standard commun, il est alors possible de développer un “connecteur de circuits ouverts” pour permettre aux données de circuler. Ce “connecteur” prendra la forme d’une API (Applications Programming Interface).</p>
-      
+
 <p>
         Data Food Consortium réunit autour de la table des représentants des différentes plateformes et réseaux de circuits courts pour <b>définir ensemble les nomenclatures et standards</b> sur lesquels nous pouvons bâtir cette interopérabilité et connecter ainsi les différentes initiatives.
     </p>
@@ -257,10 +257,10 @@ lang: fr
                     <li class="membre">
                       <a href="https://www.virtual-assembly.org/" target="_blank"><img src="{{ site.baseurl }}/img/membres/av.jpg" class="img-responsive" alt="assemblee_virtuelle"></a></li>
             </ul>
-    
+
         </div>
-            
-        
+
+
     </section>
  <section id="contact">
         <div class="container">
@@ -270,7 +270,7 @@ lang: fr
                     <br>
                 </div>
             </div>
-    
+
 
             <div class="row">
               <div class="col-lg-12">
@@ -285,7 +285,7 @@ lang: fr
                                 <input type="email" class="form-control" placeholder="Votre adresse email *" id="email" name="email" required data-validation-required-message="Merci d'entrer votre adresse e-mail">
                                 <p class="help-block text-danger"></p>
                             </div>
-                            
+
                         </div>
                         <div class="col-md-6">
                             <div class="control-group form-group">
@@ -296,16 +296,14 @@ lang: fr
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                          
+
                             <input type="hidden" name="_replyto" value="%email" id="_replyto">
                             <input type="hidden" name="_subject" value="Message pour Data Food Consortium" id="_subject">
-                            <!--  <input type="hidden" name="cc[]" value="arthur.koenig@hec.ca">
-                            <input type="hidden" name="cc[]" value="turkoenig@hotmail.com"> -->
                             <button type="submit" class="btn btn-xl" value="Send">Envoyer</button>
                         </div>
                     </div>
                   </form>
               </div>
           </div>
- 
+
     </section>
