@@ -31,6 +31,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    text-decoration: none;
 }
 
 a {
@@ -296,7 +297,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    
     line-height: 30px;
 }
 
@@ -319,8 +320,8 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 50px;
-        font-style: italic;
         line-height: 60px;
+        font-style: italic
     }
 
     header .intro-text .intro-heading {
@@ -892,3 +893,20 @@ margin:15px;
 }
 }
 
+.en:lang(en), .fr:lang(fr){
+background-color: #{{ site.data.template.color.primary }};
+}
+.fr, .en{
+color: white;
+text-transform: uppercase;
+padding: 4px 6px 4px 5px;
+margin-left: 12px;
+font-size: 11px;
+}
+.fr:hover, .en:hover {
+    background-color: white;
+    color: #{{ site.data.template.color.primary }} ;
+}
+.lang{
+
+}

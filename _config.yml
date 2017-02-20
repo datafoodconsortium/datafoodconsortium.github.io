@@ -1,4 +1,4 @@
-url: datafoodconsortium.github.io
+url: http://datafoodconsortium.org/
 baseurl:
 
 # Site settings
@@ -10,7 +10,7 @@ description: "Développons des standards ouverts de données pour les acteurs du
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url:
+    url: https://www.facebook.com/datafoodconsortium/
   - title: github
     url: https://github.com/datafoodconsortium
 
@@ -18,6 +18,62 @@ collections:
  membres:
   title: membres
   output: false
+
+t:
+ fr:
+  enjeux:
+   name: "Enjeux"
+   url: "#enjeux"
+  objectifs:
+   name: "Objectifs"
+   url: "#objectifs"
+  team:
+   name: "Membres"
+   url: "#team"
+  contact:
+   name: "Contact"
+   url: "#contact"
+ en:
+  challenges:
+   name: "Challenges"
+   url: "#challenges"
+  objectives:
+   name: "Goals"
+   url: "#goals"
+  members:
+   name: "Members"
+   url: "#team"
+  contact:
+   name: "Contact"
+   url: "#contact"
+foot:
+ fr:
+  enjeux:
+   name: "Enjeux"
+   url: "#enjeux"
+  objectifs:
+   name: "Objectifs"
+   url: "#objectifs"
+  team:
+   name: "Membres"
+   url: "#membres"
+  contact:
+   name: "Contact"
+   url: "#contact"
+ en:
+  challenges:
+   name: "Challenges"
+   url: "#challenges"
+  objectives:
+   name: "Objectives"
+   url: "#objectives"
+  members:
+   name: "Members"
+   url: "#team"
+  contact:
+   name: "Contact"
+   url: "#contact"
+
 
 defaults:
 - scope:
