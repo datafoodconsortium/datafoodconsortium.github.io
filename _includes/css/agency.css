@@ -865,14 +865,12 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
 .container-tight{
     max-width: 950px;
 }
-
 .membre{
 width: 150px ;
 margin:15px;
@@ -892,7 +890,6 @@ margin:15px;
    font-size: 17px;
 }
 }
-
 .en:lang(en), .fr:lang(fr){
 background-color: #{{ site.data.template.color.primary }};
 border-radius: 3px;
@@ -903,6 +900,9 @@ text-transform: uppercase;
 padding: 4px 6px 4px 5px;
 margin-left: 12px;
 font-size: 11px;
+-webkit-transition: all ease .35s;
+-moz-transition: all ease .35s;
+transition: all ease .35s;
 }
 .fr:hover, .en:hover {
     background-color: white;
