@@ -1,6 +1,5 @@
 ---
 title: 'Free bananas for everyone, everywhere.'
-date: 2017-02-26
 img: img/bananas.jpg
 layout: post
 comments: true

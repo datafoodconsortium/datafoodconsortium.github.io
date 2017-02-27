@@ -59,7 +59,7 @@ lang: en
                   {% for redacteur in redacteurs %}
                   {% assign name = redacteur.title | split:' ' | first %}
               <img class="avatar" src="{{site.baseurl}}/{{redacteur.avatar}}" alt="{{name}}">
-                  <div class="post-date"><a class="blue" href="{{site.baseurl}}{{redacteur.url}}">{{redacteur.title}}</a> <br>{% include blog-date.html %}</div>
+                  <div class="post-date"><a class="blue" href="{{site.baseurl}}{{redacteur.url}}">{{redacteur.title}}</a> <br>{{ post.date | date_to_long_string }}</div>
                   {% endfor %}
             </div>
           </div>
