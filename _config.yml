@@ -54,33 +54,32 @@ t:
    name: "Contact"
    url: "#contact"
 foot:
- fr:
-  enjeux:
-   name: "Enjeux"
-   url: "#enjeux"
-  objectifs:
-   name: "Objectifs"
-   url: "#objectifs"
-  team:
-   name: "Membres"
-   url: "#membres"
-  contact:
-   name: "Contact"
-   url: "#contact"
- en:
-  challenges:
-   name: "Challenges"
-   url: "#challenges"
-  objectives:
-   name: "Objectives"
-   url: "#objectives"
-  members:
-   name: "Members"
-   url: "#team"
-  contact:
-   name: "Contact"
-   url: "#contact"
-
+  fr:
+   enjeux:
+    name: "Enjeux"
+    url: "#enjeux"
+   objectifs:
+    name: "Objectifs"
+    url: "#objectifs"
+   team:
+    name: "Membres"
+    url: "#team"
+   contact:
+    name: "Contact"
+    url: "#contact"
+  en:
+   challenges:
+    name: "Issues"
+    url: "#challenges"
+   objectives:
+    name: "Goals"
+    url: "#goals"
+   members:
+    name: "Members"
+    url: "#team"
+   contact:
+    name: "Contact"
+    url: "#contact"
 
 defaults:
 - scope:
@@ -88,13 +87,12 @@ defaults:
     type: posts
   values:
     lang: 'en'
-    layout: posts
-    date:
-    title:
-    description:
-    auteur:
-    img:
-    comments:
+    layout: post
+    title: ''
+    description: ''
+    auteur: ''
+    img: ''
+    comments: ''
 - scope:
     path: ''
     type: redacteurs
@@ -102,7 +100,7 @@ defaults:
     lang: 'en'
     layout: auteur
     avatar: ''
-    twitter_username: ''
+    twitter: ''
     description: ''
 - scope:
     path: ''

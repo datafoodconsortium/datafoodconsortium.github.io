@@ -1,11 +1,11 @@
 ---
-title: Eating bananas is bad for the planet. Or is it ? Focusing on social and environmental issues.
-date: 2017-02-22
-img: img/posts/bananas.jpg
+title: 'Free bananas for everyone, everywhere.'
+date: 2017-02-26
+img: img/bananas.jpg
 layout: post
 comments: true
 auteur: Arthur Koenig
-description: Can we buy bananas and eat local ? Yes we can. Here's how.
+description: 'Not only for athletes & tropical coutries.'
 ---
 
 
