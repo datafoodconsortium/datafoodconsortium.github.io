@@ -1,6 +1,6 @@
 ---
 title: Free bananas for everyone, everywhere.
-img: 
+img: img/bananas-3.jpg
 layout: post
 comments: true
 auteur: Myriam Bouré
