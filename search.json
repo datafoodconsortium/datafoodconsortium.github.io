@@ -1,0 +1,13 @@
+---
+layout:
+---
+
+[
+{% for post in site.posts %}
+    {
+      "title"     : "{{ post.title | escape }}",
+      "url"       : "{{ site.baseurl }}{{ post.url }}",
+      "desc"      : "{{ site.baseurl }}{{ post.description }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

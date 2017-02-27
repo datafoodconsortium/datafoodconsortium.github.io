@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+
+  {% include head.html %}
+  {% include header-blog.html %}
+
+
+    <body>
+
+      <div class="blog container container-post text-center">
+        <h1>{{page.title}}</h1><br>
+      </div>
+
+      <div class="blog container text-center">
+        <div class="jumbotron jumbotron-post" style="background: url({{site.baseurl}}/{{ page.img }}) center no-repeat; background-size: cover ; "></div>
+      </div>
+
+      <div class="post container container-post text-center">
+          {% assign redacteurs = site.redacteurs | where:"title", page.auteur %}
+            {% for redacteur in redacteurs %}
+              {% assign name = redacteur.title | split:' ' | first %}
+
+              <img class="avatar" src="{{site.baseurl}}/{{redacteur.avatar}}" alt="{{name}}">
+              <div class="post-date blog"><a class="blue" href="{{site.baseurl}}{{redacteur.url}}">{{redacteur.title}}</a> <br>{% include post-date.html %}</div>
+              {% endfor %} <br>
+              <br>
+
+              {{content}} <br>
+
+              <hr>
+
+              Share this article <br>
+                <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn-media twitter">
+                <i class="fa fa-twitter-square fa-2x"></i></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{site.baseurl}}{{ page.url }}" onclick="window.open(this.href, 'Share on Facebook', 'left=20,top=20,width=600,height=400,toolbar=1,resizable=0'); return false;" class="btn-media facebook"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+              <hr>
+              <br>
+
+              {% include disqus.html %}
+
+        </div>
+
+        <div class="container text-center blog">
+
+          <!-- 3 latest posts -->
+
+          {% assign posts = site.posts | sort: 'date' | reverse %}
+          {% for post in posts limit: 3 %}
+          <hr>
+          <div class="row post-container">
+            <a href="{{site.baseurl}}{{post.url}}">
+
+              <div class="col-sm-4">
+                <div class="image-post" style="background: url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; "></div>
+              </div>
+
+              <div class="col-sm-8 post-info">
+                <h2>{{post.title}}</h2>
+                  <p>{{post.description}}</p><br>  </a>
+
+                  <div class="row details">
+
+                      <div class="col-xs-6">
+                        {% assign redacteurs = site.redacteurs | where:"title", post.auteur %}
+                            {% for redacteur in redacteurs %}
+                            {% assign name = redacteur.title | split:' ' | first %}
+                        <img class="avatar" src="{{site.baseurl}}/{{redacteur.avatar}}" alt="{{name}}">
+                            <div class="post-date"><a class="blue" href="{{site.baseurl}}{{redacteur.url}}">{{redacteur.title}}</a> <br>{% include blog-date.html %}</div>
+                            {% endfor %}
+                      </div>
+                    </div>
+
+                      <div class="sharer">
+                          <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+                              <!-- Popover hidden content -->
+                              <div class="container share-popover">
+                                    <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn-media twitter">
+                                    <i class="fa fa-twitter-square fa-2x"></i></a>
+                                    <a href="{{site.url}}{{post.url}}" rel="nofollow" onclick="window.open('https://www.facebook.com/sharer.php?u={{site.url}}{{post.url}}&title={{post.title}}', 'newwindow', 'width=600, height=400'); return false;" target="_blank" title="Share on Facebook" class="btn-media facebook"><i class="fa fa-facebook-square fa-2x"></i>
+                                    </a>
+                              </div>
+                      </div>
+
+                  </div>
+              </div>
+
+        {% endfor %}
+
+        <hr>
+        <br>
+        </div>
+        <div class="text-center"><a href="{{site.url}}">Back to main website</a></div>
+      {% include footer.html %}
+
+    {% include js-blog.html %}
+
+    </body>
+</html>

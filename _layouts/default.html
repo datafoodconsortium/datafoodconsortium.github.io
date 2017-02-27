@@ -9,7 +9,11 @@
         {{content}}
 
     {% include footer.html %}
+    {% if page.ref == "home" %}
     {% include js.html %}
+    {% else %}
+    {% include js-blog.html %}
+    {% endif %}
 
     </body>
 </html>

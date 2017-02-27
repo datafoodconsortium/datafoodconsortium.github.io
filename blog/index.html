@@ -1,0 +1,85 @@
+---
+title: Blog
+layout: default
+ref: blog
+lang: en
+---
+{% include header-blog.html %}
+
+<div class="container text-center blog">
+  <div class="intro-blog">
+<h4>The official blog of the Data Food Consortium</h4>
+</div>
+
+<!-- Latest article -->
+{% assign posts = site.posts | sort: 'date' | reverse %}
+ {% for post in posts limit:1 %}
+ <div class="jumbotron" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; ">
+ 	<a href="{{site.baseurl}}{{post.url}}">
+    <div class="jumbotron-title">
+     	<h2>{{post.title}}</h2>
+      <p>{{post.description}}</p></a>
+    </div>
+    <a href="{{site.baseurl}}{{post.url}}"><div class="btn btn-primary btn-md btn-lireplus">Lire plus</div></a>
+</div>
+{% endfor %}
+
+<!-- Search Box -->
+<div class="input-group">
+    <input type="text" id="search-input" class="form-control" placeholder="Rechercher un article...">
+    <span class="input-group-btn">
+        <button class="btn btn-default" type="button">
+            <i class="fa fa-search" aria-hidden="true"></i>
+    </button>
+    </span>
+  <!-- /.input-group -->
+</div>
+<ul class= "list-unstyled search-list search-blog" id="results-container"></ul>
+<br>
+
+<!-- Posts list -->
+{% for post in posts %}
+
+<hr>
+<div class="row post-container">
+  <a href="{{site.baseurl}}{{post.url}}">
+
+    <div class="col-sm-4">
+      <div class="image-post" style="background: url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; "></div>
+    </div>
+
+    <div class="col-sm-8 post-info">
+      <h2>{{post.title}}</h2>
+        <p>{{post.description}}</p><br>  </a>
+
+        <div class="row details">
+
+            <div class="col-xs-6">
+              {% assign redacteurs = site.redacteurs | where:"title", post.auteur %}
+                  {% for redacteur in redacteurs %}
+                  {% assign name = redacteur.title | split:' ' | first %}
+              <img class="avatar" src="{{site.baseurl}}/{{redacteur.avatar}}" alt="{{name}}">
+                  <div class="post-date"><a class="blue" href="{{site.baseurl}}{{redacteur.url}}">{{redacteur.title}}</a> <br>{% include blog-date.html %}</div>
+                  {% endfor %}
+            </div>
+          </div>
+
+            <div class="sharer">
+                <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
+                    <!-- Popover hidden content -->
+                    <div class="container share-popover">
+                          <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn-media twitter">
+                          <i class="fa fa-twitter-square fa-2x"></i></a>
+                          <a href="{{site.url}}{{post.url}}" rel="nofollow" onclick="window.open('https://www.facebook.com/sharer.php?u={{site.url}}{{post.url}}&title={{post.title}}', 'newwindow', 'width=600, height=400'); return false;" target="_blank" title="Share on Facebook" class="btn-media facebook"><i class="fa fa-facebook-square fa-2x"></i>
+                          </a>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+{% endfor %}
+<hr>
+</div>
+<br>
+<br>
+<div class="text-center"><a href="{{site.url}}">Back to main website</a></div>

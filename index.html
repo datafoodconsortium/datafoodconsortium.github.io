@@ -1,11 +1,11 @@
 ---
-title: Accueil
+title: Homepage
 layout: default
 ref: home
-lang: fr
+lang: en
 ---
 <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -25,6 +25,7 @@ lang: fr
                     {% for menu in site.t[page.lang] %}
                     <li><a class="page-scroll" href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                     {% endfor %}
+                  <li class="hidden btn-info btn-blog"><a href="{{site.baseurl}}/blog">BLOG</a></li>
 
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
@@ -42,10 +43,10 @@ lang: fr
 
     <!-- Header -->
     <header>
-        <div class="container container-intro">
+        <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Développons des standards ouverts de données pour les acteurs du système alimentaire</div>
-                <a href="#enjeux" class="page-scroll btn btn-xl">Pourquoi ?</a>
+                <div class="intro-lead-in">Developing open data standards <br>for the food system</div>
+                <a href="#challenges" class="page-scroll btn btn-xl">Why ?</a>
             </div>
         </div>
 
@@ -53,40 +54,47 @@ lang: fr
 
 
 
-
-<!-- Enjeux Section -->
-    <section id="enjeux">
+<!-- Services Section -->
+    <section id="challenges">
         <div class="container container-tight">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Enjeux</h2>
+                    <h2 class="section-heading">Issues</h2>
 
-                        <p>
-                        Avec le développement de la foodtech, <b>de plus en plus de services s’opèrent via des outils informatisés:</b> suivi de la production, gestion des parcelles, gestion des catalogues produits, vente en ligne via des outils de e-commerce, facturation, comptabilité, etc.</p>
+                    <p>
+                    With the development of foodtech, <b>more and more services are being managed through digital tools:</b> production monitoring, land management, products catalog management, online sales via e-commerce tools, invoicing, accounting, etc.</p>
 
-                        <p>
-                        Aujourd’hui, <b>tous ces outils n’utilisent pas de standards communs</b>, les acteurs du système alimentaire sont donc confrontés à des nécessités de saisies multiples, à des problématiques de gestion de stocks et à de nombreuses opérations manuelles pour compenser les incapacités de <b>communication inter-plateformes. </b>
-                        </p>
-
-                        <br>
-                        <br>
+                    <p>Today, <b>all these tools do not use common standards.</b> Food system actors are confronted with the need for multiple data inputs, inventory management problems and many manual operations to compensate for the lack of <b>cross-platform communication.</b>
+                    <br>
+                    <br>
 
 
                             <article class="text-center">
-                <h4 class="service-heading">Un exemple concret: </h4>
+                <h4 class="service-heading">A concrete example </h4>
                 <br>
-                <p style="font-style: italic ; text-align: left"> Un maraîcher, Marcel, vend ses légumes à un groupement d'achat <b>"Copains Terre"</b> qui dispose d'une plateforme web (site internet), sur laquelle Marcel gère son catalogue de produits en ligne.
+
+
+
+
+
+
+
+
+
+
+                <p style="font-style: italic ; text-align: left">
+                A farmer named Dave sells his vegetables to a food hub named <b>"Earth Friends"</b> which has a web platform (website), on which Dave manages his products catalog.
                 <br>
-                Imaginons maintenant qu'un groupement d'achat <b>"Amis des Champs"</b> souhaite aussi distribuer les produits de Marcel via sa propre plateforme web
+                Now imagine that another buying group, <b>"Eastern Farmers"</b> also wants to distribute Dave’s products on its own web platform.
                 <br>
-                Comment Amis des Champs accède-t-il au catalogue de Marcel ? Aujourd'hui, les solutions sont loin d'être idéales:
+                How does Eastern Farmers access Dave’s catalog? Today, the solutions are far from ideal:
                 <br>
-                1 - Marcel doit saisir les mêmes données sur la plateforme de Copains Terre et d'Amis des Champs, le menant à une perte de temps et une gestion des stocks et des commandes compliquées.
+                1 - Dave must enter the same data on each platform, therefore loosing time and having to manage stocks and orders on different platforms.
                 <br>
-                2 - Amis des Champs peut se baser sur le catalogue disponible chez Copains Terre. Se posent alors des problématiques de synchronicité du stock (problèmes d’erreurs dues à des synchronisations non instantanées), de fiabilité des données, ainsi que de sécurité.
+                2 - Eastern Farmers can source Earth Friend’s data and access Dave’s catalog. There are then problems of stock synchronicity (problems of errors due to delays in stock updates), data reliability and security.
                 <br>
                 <br>
-                La solution : <b>l'interopérabilité.</b> Plaît-il ? En fait, c'est très simple : pour éviter de compliquer les opérations lorsqu'un même produit est distribué sur plusieurs plateformes, il faut qu'elles communiquent entre elles de manière efficace. <br> Il ne s’agit pas de synchronisation ni d’échanges de données, il s’agit d’affichage croisés de données qui peuvent être hébergées sur n’importe quelle base de données. La donnée n’est pas répliquée, juste affichée, à partir de l’information directement puisée dans la base de donnée source.
+                The solution: <b>interoperability.</b> What is it ? It’s pretty awesome. To avoid complicating operations when the same product is distributed on several platforms, they must communicate effectively.<br> IWe are not talking about synchronization or data exchange, simply cross-display of data that can be hosted on any database. The data is not replicated, just displayed, from the information directly drawn from the source database.
                 </p>
 
                 </article>
@@ -99,23 +107,23 @@ lang: fr
             </div>
 
             <div class="row text-center">
-                 <h4 class="service-heading">Les avantages de l'interopérabilité </h4>
+                 <h4 class="service-heading">The advantages of interoperability</h4>
                  <br>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Économique</h4>
-                    <p class="text-muted"> Gain de temps dans la saisie des informations (fin des saisies multiples) et fiabilisation des informations concernant la disponibilité des produits en temps réel (stock). Les producteurs et les plateformes peuvent se concentrer sur leurs coeurs de métier, la production et la vente. L'interopérabilité facilite aussi la mise en place de nouvelles coopérations commerciales, parfois rendues compliquées pour cause d'incompatibilité d'outils. </p>
+                    <h4 class="service-heading">Economy</h4>
+                    <p class="text-muted"> Time saving in data input and reliability of information regarding the availability of products in real time (stock). Producers and platforms can focus on their core business, production and sales. Interoperability also facilitates the implementation of new commercial relationships, sometimes complicated due to the incompatibility of tools.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-leaf fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Écologique</h4>
-                    <p class="text-muted">Un partage plus facile des données peut amener à une mutualisation des transports, répondant à la fois à des enjeux logistiques et écologiques, deux questions majeures dans la distribution alimentaire en général et particulièrement en circuit court. </p>
+                    <h4 class="service-heading">Environment</h4>
+                    <p class="text-muted">An easier data sharing mechanism can facilitate transport pooling, answering both logistic and environmental stakes, two major issues in food distribution in general and particularly in small scale & local food supply chains.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -123,7 +131,7 @@ lang: fr
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Social</h4>
-                    <p class="text-muted"> En favorisant la coopération entre acteurs de la chaîne alimentaire, l'interopérabilité renforce les coopérations au sein de l'écosystème et les synergies entre acteurs. Cela nous permet, au delà des services et modèles proposés par chacun, d'oeuvrer ensemble à la construction d'un système alimentaire ouvert, transparent, et permettant l'émancipation aussi bien des producteurs que des mangeurs.
+                    <p class="text-muted"> By promoting cooperation among actors in the food chain, interoperability strengthens links and synergies within the ecosystem. This allows us, beyond the services and models offered by every actor, to work together to build an open and transparent food system that promotes the emancipation of both producers and eaters.
                    </p>
                 </div>
                 </div>
@@ -133,14 +141,13 @@ lang: fr
             </div>
 
     </section>
-    <!-- objectifs Section -->
-    <section id="objectifs" class="bg-light-gray">
+    <!-- About Section -->
+    <section id="goals" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Objectifs</h2>
-                    <h3 class="section-subheading text-muted"><b>L'interopérabilité des données : au coeur des plateformes, des humains.</b>
-</h3>
+                    <h2 class="section-heading">Goals</h2>
+                    <h3 class="section-subheading text-muted"><b>Data interoperability : human beings at the heart of digital platforms.</b></h3>
                 </div>
             </div>
             <div class="row">
@@ -153,10 +160,10 @@ lang: fr
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
 
-                                    <h4 class="subheading">1. Catalogue</h4>
+                                    <h4 class="subheading">1. Catalog</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Eviter les saisies multiples de catalogues producteurs, pouvoir simplement se connecter à un catalogue existant sur une autre plateforme</p>
+                                    <p class="text-muted">Avoid multiple entries in producer catalogs, simply be able to connect to an existing catalog on another platform</p>
                                 </div>
                             </div>
                         </li>
@@ -167,10 +174,10 @@ lang: fr
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
 
-                                    <h4 class="subheading">2. Commandes</h4>
+                                    <h4 class="subheading">2. Orders</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Que les commandes soient claires, facilement compréhensibles par les producteurs quel que soit l’outil de gestion utilisé</p>
+                                    <p class="text-muted">Make orders clear, easily understood by producers regardless of the software used to sell</p>
                                 </div>
                             </div>
                         </li>
@@ -184,7 +191,7 @@ lang: fr
                                     <h4 class="subheading">3. Communication</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Que les communications avec les acheteurs et les producteurs soient fluides</p>
+                                    <p class="text-muted">Communication between buyers and producers should be flawless.</p>
                                 </div>
                             </div>
                         </li>
@@ -198,7 +205,7 @@ lang: fr
                                     <h4 class="subheading">4. Transport</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Que les informations à communiquer au transporteur soient claires, et disponibles en un clic (lien avec les plateformes logistiques)</p>
+                                    <p class="text-muted">The information to communicate to transport services should be clear and easily accessible (links with logistic platforms)</p>
                                 </div>
                             </div>
                         </li>
@@ -209,10 +216,10 @@ lang: fr
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
 
-                                    <h4 class="subheading">5. Choix de l'outil</h4>
+                                    <h4 class="subheading">5. Choose the right tool</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Que le producteur aie accès à un outil adapté à son besoin pour gérer sa production et ses ventes, et qu’il puisse propager son offre, en quantité limitée ou non, via les hubs alimentaires de son choix.</p>
+                                    <p class="text-muted">The producer should be able to choose the tool that best fits his needs for production and sales management, whether in limited quantity or not, through the food hub of his choice.</p>
                         </div></div></li>
 
                     </ul>
@@ -221,19 +228,16 @@ lang: fr
         </div>
         <br>
         <br>
-         <br>
+        <br>
         <br>
         <div class="container container-tight" style="text-align: justify">
-             <h3 class="service-heading text-center"><b>Comment faire ?</b></h3>
+                 <h3 class="service-heading text-center"><b>How?</b></h3>
             <p>
-        Pour mettre en oeuvre l’interopérabilité et permettre par exemple aux produits gérées dans la base de données de l'acteur X d’être affichés dans une boutique en ligne de l'acteur Y, ces deux acteurs doivent se mettre d’accord sur un standard pour décrire les produits. Le standard peut être vu comme un ensemble de données fondamentales devant être présents pour permettre l’appel de ces données par une autre plateforme.
-        </p>
-         <p>
-            Si les données respectent un standard commun, il est alors possible de développer un “connecteur de circuits ouverts” pour permettre aux données de circuler. Ce “connecteur” prendra la forme d’une API (Applications Programming Interface).</p>
-
-<p>
-        Data Food Consortium réunit autour de la table des représentants des différentes plateformes et réseaux de circuits courts pour <b>définir ensemble les nomenclatures et standards</b> sur lesquels nous pouvons bâtir cette interopérabilité et connecter ainsi les différentes initiatives.
-    </p>
+                To implement the interoperability and allow products managed in the database of "Earth Friends” to be displayed in the online shop of "Eastern Farmers", these two actors must agree on a standard to describe products. The standard can be seen as a set of essential data that must exist to allow another platform to call this data.</p>
+            <p>
+                If food data meets a common standard, it is then possible to develop an "food system connector" to allow the data to circulate. This "connector" will take the form of an API (Applications Programming Interface).</p>
+            <p>
+                Data Food Consortium brings together representatives of various platforms and supply chain networks around the table to define <b>together the taxonomy and standards</b> on which we can build this interoperability and thus connect the different initiatives.</p>
         </div>
 
     </section>
@@ -241,8 +245,8 @@ lang: fr
     <!-- Team Section -->
     <section id="team">
         <div class="container text-center">
-            <h2 class="section-heading">Autour de la table</h2>
-            <h3 class="section-subheading text-muted">Membres du consortium</h3>
+            <h2 class="section-heading">Around the table</h2>
+            <h3 class="section-subheading text-muted">Members of the Consortium</h3>
              <br>
             <br>
             <ul class="list-inline clearfix">
@@ -252,7 +256,7 @@ lang: fr
                 {% endfor %}
             </ul>
             <br>
-            <h3 class="section-subheading text-muted">Partenaire facilitateur</h3>
+            <h3 class="section-subheading text-muted">Facilitator partner</h3>
            <ul class="list-inline clearfix">
                     <li class="membre">
                       <a href="https://www.virtual-assembly.org/" target="_blank"><img src="{{ site.baseurl }}/img/membres/av.jpg" class="img-responsive" alt="assemblee_virtuelle"></a></li>
@@ -266,7 +270,7 @@ lang: fr
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contactez-nous</h2>
+                    <h2 class="section-heading">Contact us</h2>
                     <br>
                 </div>
             </div>
@@ -274,22 +278,22 @@ lang: fr
 
             <div class="row">
               <div class="col-lg-12">
-                  <form name="sentMessage" id="contactForm" action="http://mailthis.to/info@datafood" novalidate method="post">
+                  <form name="sentMessage" id="contactForm" action="http://mailthis.to/datafood" novalidate method="post">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <input type="text" class="form-control" placeholder="Votre nom *" id="name" name="nom" required data-validation-required-message="Merci d'écrire votre nom">
+                                <input type="text" class="form-control" placeholder="Name *" id="name" name="nom" required data-validation-required-message="Please write your name">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group form-group">
-                                <input type="email" class="form-control" placeholder="Votre adresse email *" id="email" name="email" required data-validation-required-message="Merci d'entrer votre adresse e-mail">
+                                <input type="email" class="form-control" placeholder="Email address *" id="email" name="email" required data-validation-required-message="Please enter your email address">
                                 <p class="help-block text-danger"></p>
                             </div>
 
                         </div>
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <textarea class="form-control" placeholder="Votre message *" id="message" name="message" required data-validation-required-message="Écrivez votre message ici"></textarea>
+                                <textarea class="form-control" placeholder="Message *" id="message" name="message" required data-validation-required-message="Please write your message here"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -299,7 +303,7 @@ lang: fr
 
                             <input type="hidden" name="_replyto" value="%email" id="_replyto">
                             <input type="hidden" name="_subject" value="Message pour Data Food Consortium" id="_subject">
-                            <button type="submit" class="btn btn-xl" value="Send">Envoyer</button>
+                            <button type="submit" class="btn btn-xl" value="Send">Send</button>
                         </div>
                     </div>
                   </form>
@@ -307,3 +311,10 @@ lang: fr
           </div>
 
     </section>
+
+    <div class="text-center hidden">
+      <br>
+    <h4>Latest news from the consortium</h4>
+    <br>
+      <a href="{{site.baseurl}}/blog" class="btn btn-info btn-lg">BLOG</a>
+    </div>

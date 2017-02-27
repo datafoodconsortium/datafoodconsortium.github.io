@@ -7,5 +7,9 @@ color:
 font:
   primary: '"Nunito", "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Lato", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  third: '"Lora", "Helvetica Neue"'
+  fourth: '"Crimson Text", "Helvetica Neue"'
 header:
+  img: "/img/header-bg2.jpg"
+blog-header:
   img: "/img/header-bg2.jpg"

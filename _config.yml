@@ -6,6 +6,7 @@ title: Data Food Consortium
 email: info@datafoodconsortium
 description: "Développons des standards ouverts de données pour les acteurs du système alimentaire"
 description_en: "Developing open data standards for the food system"
+twitter_username: "dfconsortium"
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -14,11 +15,16 @@ social:
     url: https://www.facebook.com/datafoodconsortium/
   - title: github
     url: https://github.com/datafoodconsortium
+  - title: twitter
+    url: https://twitter.com/dfconsortium
 
 collections:
  membres:
   title: membres
   output: false
+ redacteurs:
+  title: redacteurs
+  output: true
 
 t:
  fr:
@@ -79,6 +85,27 @@ foot:
 defaults:
 - scope:
     path: ''
+    type: posts
+  values:
+    lang: 'en'
+    layout: posts
+    date:
+    title:
+    description:
+    auteur:
+    img:
+    comments:
+- scope:
+    path: ''
+    type: redacteurs
+  values:
+    lang: 'en'
+    layout: auteur
+    avatar: ''
+    twitter_username: ''
+    description: ''
+- scope:
+    path: ''
     type: membres
   values:
     nom: ''
@@ -87,4 +114,4 @@ defaults:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: "/blog/:title"
