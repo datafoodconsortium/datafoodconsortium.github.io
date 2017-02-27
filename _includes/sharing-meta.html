@@ -4,9 +4,9 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{site.url}}{{page.url}}" />
 <meta property="og:description" content="{{ page.description }}" />
-<meta property="og:image" content="{{ site.url }}{% if page.ref == home %}{{ site.data.template.header.img }}{% else %}{{ page.img }}{% endif %}" />
+<meta property="og:image" content="{{ site.url }}/{% if page.ref %}{{ site.data.template.header.img }}{% else %}{{ page.img }}{% endif %}" />
  <!-- for Twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:description" content="{{ page.description }}" />
-<meta name="twitter:image" content="{{ site.url }}{% if page.ref == home %}{{ site.data.template.header.img }}{% else %}{{ page.img }}{% endif %}" />
+<meta name="twitter:image" content="{{ site.url }}/{% if page.ref %}{{ site.data.template.header.img }}{% else %}{{ page.img }}{% endif %}" />
