@@ -1,10 +1,11 @@
 ---
-title: 'Free bananas for everyone, everywhere.'
-img:
+title: Free bananas for everyone, everywhere.
+img: 
 layout: post
 comments: true
-auteur: Arthur Koenig
-description: 'Not only for athletes & tropical coutries.'
+auteur: Myriam Bouré
+description: Not only for athletes & tropical coutries.
+date: '2017-02-26T00:00:00.000+00:00'
 ---
 
 
