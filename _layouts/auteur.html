@@ -42,15 +42,9 @@
                         <div class="author-name">{{page.title}} <br>
                           <div class="social-buttons">
 
-                              {% if page.twitter == nil or page.twitter == '' %}{% else %}
-                              <a href="https://twitter.com/{{page.twitter}}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                              {% endif %}
-                              {% if page.facebook == nil or page.facebook == '' %}{% else %}
-                              <a href="https://www.facebook.com/{{page.facebook}}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                              {% endif %}
-                              {% if page.linkedin == nil or page.linkedin == '' %}{% else %}
-                              <a href="https://www.linkedin.com/in/{{page.linkedin}}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                              {% endif %}
+                            {% for item in page.social %}
+                              <a href="{{item.url}}" target="_blank"><i class="fa fa-{{item.name}}" aria-hidden="true"></i></a>
+                            {% endfor %}
 
                           </div>
                         </div>
