@@ -1,6 +1,6 @@
 ---
 title: 'Free bananas for everyone, everywhere.'
-img: img/bananas.jpg
+img:
 layout: post
 comments: true
 auteur: Arthur Koenig
