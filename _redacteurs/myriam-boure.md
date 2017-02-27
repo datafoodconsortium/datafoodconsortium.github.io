@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: auteur
-avatar: "/img/membres/Screen Shot 2017-02-27 at 9.06.31 PM.png"
+avatar: img/Screen Shot 2017-02-27 at 9.06.31 PM.png
 social:
 - name: twitter
   url: https://twitter.com/OpenFoodNet_Fr?lang=fr
