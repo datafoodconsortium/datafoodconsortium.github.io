@@ -101,6 +101,8 @@ defaults:
     layout: auteur
     avatar: ''
     twitter: ''
+    facebook: ''
+    linkedin: ''
     description: ''
 - scope:
     path: ''
