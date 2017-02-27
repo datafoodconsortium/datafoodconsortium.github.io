@@ -100,9 +100,7 @@ defaults:
     lang: 'en'
     layout: auteur
     avatar: ''
-    twitter: ''
-    facebook: ''
-    linkedin: ''
+    social: ''
     description: ''
 - scope:
     path: ''
