@@ -1275,10 +1275,12 @@ hr{
 }
 .search-list {
   position:absolute;
+  background-color: white;
   z-index: 2000;
   max-width: 719px;
   margin-right: 15px;
 }
+
 @media (min-width: 992px) {
   .search-list {
       min-width: 809px;
