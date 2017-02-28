@@ -15,7 +15,7 @@ description: Official blog of the Data Food Consortium
 <!-- Latest article -->
 {% assign posts = site.posts | sort: 'date' | reverse %}
  {% for post in posts limit:1 %}
- <div class="jumbotron" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; ">
+ <div class="jumbotron hidden-xxs" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; ">
  	<a href="{{site.baseurl}}{{post.url}}">
     <div class="jumbotron-title">
      	<h2>{{post.title}}</h2>
