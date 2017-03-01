@@ -49,16 +49,22 @@ description: Official blog of the Data Food Consortium
     <div class="row post-container">
       <a href="{{site.baseurl}}{{post.url}}">
 
+        <!-- Post image -->
+
         <div class="col-sm-4">
           <div class="image-post" style="background: url({{site.baseurl}}/{{ post.img }}) center no-repeat; background-size: cover ; "></div>
         </div>
 
+        <!-- Post title & subtitle -->
+
         <div class="col-sm-8 post-info">
           <h2>{{post.title}}</h2>
-            <p>{{post.description}}</p><br>  </a>
+            <p class="post-subtitle">{{post.description}}</p><br>
+      </a>
+
+        <!-- Post author & share -->
 
             <div class="row details">
-
                 <div class="col-xs-6">
                   {% assign redacteurs = site.redacteurs | where:"title", post.auteur %}
                       {% for redacteur in redacteurs %}
@@ -71,7 +77,9 @@ description: Official blog of the Data Food Consortium
 
                 <div class="sharer">
                     <a class="btn-share popover-html blue hvr-icon-forward" tabindex="0"> Share </a>
-                        <!-- Popover hidden content -->
+
+                        <!-- Popover content -->
+
                         <div class="container share-popover">
                               <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="btn-media twitter">
                               <i class="fa fa-twitter-square fa-2x"></i></a>
