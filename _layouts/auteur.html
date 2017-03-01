@@ -8,25 +8,9 @@
 
       <div class="container text-center blog container-post">
 
-          <div class="intro-blog">
+          <div class="intro-blog intro-author">
           <a href="{{site.baseurl}}/blog"><h4>The official blog of the Data Food Consortium</h4></a>
           </div>
-
-          <!-- Search Box -->
-
-          <section class="small">
-                  <div class="input-group">
-                      <input type="text" id="search-input" class="form-control" placeholder="Rechercher un article...">
-                      <span class="input-group-btn">
-                          <button class="btn btn-default" type="button">
-                              <i class="fa fa-search" aria-hidden="true"></i>
-                      </button>
-                      </span>
-                    <!-- /.input-group -->
-                  </div>
-                  <ul class= "list-unstyled search-list" id="results-container"></ul>
-
-              </section>
 
               <!-- Author's info -->
 
@@ -53,11 +37,30 @@
                 </div>
               </section>
 
+
             <section class= "small">
               <p style="text-align:center">{{page.description}} </p>
+              <br>
             </section>
 
         </div>
+
+        <!-- Search Box -->
+
+        <section class="small">
+          <div class="container-search-author">
+                <div class="input-group">
+                    <input type="text" id="search-input" class="form-control" placeholder="Rechercher un article...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    </span>
+                  <!-- /.input-group -->
+                </div>
+                <ul class= "list-unstyled search-list" id="results-container"></ul>
+            </div>
+          </section>
 
         <!-- author's post list -->
 
