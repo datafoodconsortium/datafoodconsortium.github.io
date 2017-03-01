@@ -7,15 +7,16 @@
 
     <body>
 
-      <div class="blog container container-post text-center">
+
+
+      <div class="blog text-center">
+        <div class="jumbotron jumbotron-post" style="background: url({{site.baseurl}}/{{ page.img }}) center no-repeat; background-size: cover ; "></div>
+      </div>
+      <div class="blog container container-post">
         <h1>{{page.title}}</h1><br>
       </div>
 
-      <div class="blog container text-center">
-        <div class="jumbotron jumbotron-post" style="background: url({{site.baseurl}}/{{ page.img }}) center no-repeat; background-size: cover ; "></div>
-      </div>
-
-      <div class="post container container-post text-center">
+      <div class="post container container-post">
           {% assign redacteurs = site.redacteurs | where:"title", page.auteur %}
             {% for redacteur in redacteurs %}
               {% assign name = redacteur.title | split:' ' | first %}
@@ -45,7 +46,7 @@
           <!-- 3 latest posts -->
 
           {% assign posts = site.posts | sort: 'date' | reverse %}
-          {% for post in posts limit: 3 %}
+          {% for post in posts limit: 6 %}
           <hr>
           <div class="row post-container">
             <a href="{{site.baseurl}}{{post.url}}">
