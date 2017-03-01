@@ -968,7 +968,6 @@ transition: all ease .35s;
 .navbar-static-top {
   box-shadow: 0 0 0.25em rgba(17,17,17,0.2);
   background-color:#fff;
-  height: 90px;
   color: black;
 }
 .navbar-static-top .logo-text{
@@ -977,6 +976,7 @@ transition: all ease .35s;
 @media (min-width: 768px){
 .navbar-static-top {
 padding-top:16px;
+height: 90px;
   }
 }
 
@@ -1265,7 +1265,8 @@ hr{
   color: #473f36;
 }
 .post img:not(.avatar) {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: auto;
   margin: auto;
   margin-top: 20px;
@@ -1285,6 +1286,12 @@ hr{
 .nav .btn-md {
   margin-right: 15px;
   margin-top:5px;
+}
+@media (max-width: 768px){
+  .nav .btn-md {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 /* Search Box */
