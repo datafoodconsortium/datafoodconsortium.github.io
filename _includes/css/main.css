@@ -1409,3 +1409,23 @@ blockquote:before {
       width   : 40px;
       border-top:4px solid #{{ site.data.template.color.primary }};
     }
+.page-404 {
+  margin-top: 50px;
+  background-color: #F1F1F1;
+}
+.page-404 h1 {
+  font-weight: 200;
+  font-size: 60px;
+}
+.page-404 img {
+  max-width: 35px;
+  opacity: 0.9;
+}
+.text-404 {
+color: rgba(0, 0, 0, 0.5);
+font-size: 18px;
+margin-bottom: 40px;
+}
+.container-404{
+  max-width: 600px;
+}
