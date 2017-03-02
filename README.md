@@ -1,5 +1,5 @@
 Official website and blog of the Data Food Consoriutm
-======================================================
+=================================
 
 [datafoodconsortium.org](http://datafoodconsortium.org/)
 
@@ -13,4 +13,7 @@ Configured for CMS : [Forestry.io ](https://forestry.io/)
 Website theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
 =========
-For more details, read [documentation](http://jekyllrb.com/)
+
+To access the forestry CMS, go to [datafoodconsortium.org/admin](http://datafoodconsortium.org/admin/) <br>
+
+For more details, read the [jekyll documentation](http://jekyllrb.com/) and the [forestry.io documentation](http://forestry.io/docs/)
