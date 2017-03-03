@@ -10,12 +10,18 @@
 
 
       <div class="blog text-center">
+        <div class="blog container container-post">
+          <h1>{{page.title}}</h1><br>
+        </div>
         <div class="jumbotron jumbotron-post" style="background: url({{site.baseurl}}/{{ page.img }}) center no-repeat; background-size: cover ; "></div>
-      </div>
-      <div class="blog container container-post">
-        <h1>{{page.title}}</h1><br>
+        {% for item in page.img_credit %}
+        {% if item.name == nil or item.name == '' %}{% else %}<h3>Image source: <a href="{{item.url}}" target="_blank">{{item.name}}</a> - <a href= "{{item.license-url}}" target="_blank">{{item.license-name}} license</a></h3>{% endif %}
+        {% endfor %}
       </div>
 
+      <div class="blog container container-post">
+        <h2>{{page.description}}</h2><br>
+      </div>
       <div class="post container container-post">
           {% assign redacteurs = site.redacteurs | where:"title", page.auteur %}
             {% for redacteur in redacteurs %}

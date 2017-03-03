@@ -13,36 +13,37 @@
           </div>
 
               <!-- Author's info -->
+            <div class="well">
+                <section class="small">
+                  <div class="row">
 
-              <section class="small">
-                <div class="row">
+                      <div class="col-sm-6">
+                          <img class="avatar-big" src="{{site.baseurl}}/{{page.avatar}}" alt="{{page.title}}">
+                      </div>
 
-                    <div class="col-sm-6">
-                        <img class="avatar-big" src="{{site.baseurl}}/{{page.avatar}}" alt="{{page.title}}">
-                    </div>
+                      <div class="col-sm-6">
 
-                    <div class="col-sm-6">
+                          <div class="author-name">{{page.title}} <br>
+                            <div class="social-buttons">
 
-                        <div class="author-name">{{page.title}} <br>
-                          <div class="social-buttons">
+                              {% for item in page.social %}
+                                <a href="{{item.url}}" target="_blank"><i class="fa fa-{{item.name}}" aria-hidden="true"></i></a>
+                              {% endfor %}
 
-                            {% for item in page.social %}
-                              <a href="{{item.url}}" target="_blank"><i class="fa fa-{{item.name}}" aria-hidden="true"></i></a>
-                            {% endfor %}
-
+                            </div>
                           </div>
-                        </div>
-                    </div>
+                      </div>
 
-                </div>
-              </section>
+                  </div>
+                </section>
 
-
-            <section class= "small">
-              <p style="text-align:center">{{page.description}} </p>
-              <br>
-            </section>
-
+                <section class= "small">
+                  <p>{{page.description}} </p>
+                  <br>
+                </section>
+            </div>
+<br>
+<br>
         </div>
 
         <!-- Search Box -->
