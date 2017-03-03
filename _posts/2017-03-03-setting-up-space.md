@@ -42,7 +42,7 @@ Inspired by the lean start-up approach, we are starting small, with a few actors
 
 *   Hold a safe space where conversations can happen in trust, at a “human and personal scale”. For that we meet online and offline (in Paris) 2 hours every other week.
 
-<span style="font-size: 18px;">Facilitate the process in order to make sure we always stick to our intention and move together step by step, slowly but surely. I have the pleasure to facilitate the group, make sure everyone is welcome and that our collective intelligence can emerge. I am supported in that job by the [Virtual Assembly](https://www.virtual-assembly.org/english/) (who has a much better understanding on the technical aspects of the project!).</span>  
+*   Facilitate the process in order to make sure we always stick to our intention and move together step by step, slowly but surely. I have the pleasure to facilitate the group, make sure everyone is welcome and that our collective intelligence can emerge. I am supported in that job by the [Virtual Assembly](https://www.virtual-assembly.org/english/){:style="background-color: rgb(255, 255, 255);"} (who has a much better understanding on the technical aspects of the project!).
 
 *   Start doing with a first prototype as soon as possible, fail and learn, and try again, with quick iterations. That’s what we are going to do from now until summer. We are going to choose a use case and set it up. We’ll share the process at every stage through blog posts :-)
 
