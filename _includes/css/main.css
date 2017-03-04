@@ -1286,6 +1286,13 @@ hr{
 .blue:hover, .blue:focus {
   color: #217DBB;
 }
+.brown {
+  color: #{{ site.data.template.color.primary }};
+  transition: all 0.2s ease;
+}
+.brown:hover, .brown:focus {
+    color: #{{ site.data.template.color.primary }};
+}
 .nav .btn-md {
   margin-right: 15px;
   margin-top:5px;
