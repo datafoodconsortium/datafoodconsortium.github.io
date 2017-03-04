@@ -1456,3 +1456,6 @@ margin-bottom: 40px;
   font-family: {{ site.data.template.font.primary }};
   font-weight: 200;
 }
+.post h2 {
+  margin-top: 40px;
+}
