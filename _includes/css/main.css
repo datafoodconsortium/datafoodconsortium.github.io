@@ -1165,7 +1165,7 @@ hr{
 }
 .post p{
   font-family: {{ site.data.template.font.fourth }};
-  font-size: 20px;
+  font-size: 22px;
   word-spacing: 1px;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
@@ -1174,7 +1174,7 @@ hr{
 }
 @media (min-width: 768px) {
   .post p{
-  font-size: 23px;
+  font-size: 24px;
   word-spacing: 2px;
   color: #3e3933;
   line-height: 35px;
