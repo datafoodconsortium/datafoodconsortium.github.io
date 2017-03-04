@@ -8,7 +8,7 @@ description: 'Starting to envision the data architecture: the different steps of
 auteur: Myriam Bouré
 img: img/data.jpg
 comments: true
-date: 2017-03-04 10:17
+date: 2017-02-22 10:17
 ---
 **February 22nd, 2017\. Second meeting.**  
 
