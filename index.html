@@ -27,7 +27,7 @@ description: Developing open data standards for the food system
                     {% for menu in site.t[page.lang] %}
                     <li><a class="page-scroll" href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                     {% endfor %}
-                  <li class="hidden btn-info btn-blog"><a href="{{site.baseurl}}/blog">BLOG</a></li>
+                  <li class="btn-info btn-blog"><a href="{{site.baseurl}}/blog">BLOG</a></li>
 
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
@@ -314,7 +314,7 @@ description: Developing open data standards for the food system
 
     </section>
 
-    <div class="text-center hidden">
+    <div class="text-center">
       <br>
     <h4>Latest news from the consortium</h4>
     <br>

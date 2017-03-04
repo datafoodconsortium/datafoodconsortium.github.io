@@ -27,7 +27,7 @@ description: Développons des standards ouverts de données pour les acteurs du 
                     {% for menu in site.t[page.lang] %}
                     <li><a class="page-scroll" href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
                     {% endfor %}
-                    <li class="hidden btn-info btn-blog"><a class="btn-blog" href="{{site.baseurl}}/blog">BLOG</a></li>
+                    <li class="btn-info btn-blog"><a class="btn-blog" href="{{site.baseurl}}/blog">BLOG</a></li>
 
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
@@ -312,7 +312,7 @@ description: Développons des standards ouverts de données pour les acteurs du 
 
     </section>
 
-      <div class="text-center hidden">
+      <div class="text-center">
         <br>
       <h4>Les dernières nouvelles du consortium</h4>
       <br>
