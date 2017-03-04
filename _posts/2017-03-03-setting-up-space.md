@@ -7,7 +7,7 @@ description: How can we switch from a silo logic to a network logic?
 auteur: Myriam Bouré
 img: img/roots.jpg
 comments: true
-date: 2017-03-03 13:40
+date: 2017-02-06 13:40
 img_credit:
 - url: https://www.flickr.com/photos/bushman_k/6177594429/in/photolist-apTMAM-aGJR8T-Gx5bdd-o8Z7jQ-5AsQon-EExnnu-8WBTH1-bjRnd-oqa6yi-bjSis-5Mn3TM-7rGJZF-95ButQ-EHRB1-qc48bb-o2G2tb-7n2oAZ-7n2nX4-gFsYQa-am2MuU-7n2ori-7n6fpS-7n6fyb-7n2nbe-nKjCb5-7n2nGv-5Mn4Ge-5Mn4ii-7aGNyu-5AsPGM-4CXWGN-qiMRg4-MkXX8d-ptiGcT-k6k35M-KHviDw-KSNp5B-odkxxM-obgaJp-RNRLxC-qgCo7o-obyx9Z-EJAeR-KiYYY4-obufGW-7n2nkZ-EJBK9-7Wnmp2-bqJwop-7JkoJ3
   license-name: Creative Commons
