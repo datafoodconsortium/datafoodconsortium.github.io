@@ -48,15 +48,15 @@ Inspired by the lean start-up approach, we are starting small, with a few actors
 
 *   Build an open and collaborative governance of the project. Some of the workshops planned in the coming months will be on governance.
 
-The first meeting happened end of January 2017.
+<b>The first meeting happened end of January 2017.</b>
 
 We got to know each other, and aligned around shared challenges (what problem do we want to solve together?) and a shared intention that we formulated as such:
 
-“Implement infrastructures and processes enabling to gather the different players of the food system who can, together, by cooperating, transform and open the door for a new system to emerge: both decentralized and efficient, respecting the soils and life in general, ensuring food security and sovereignty, and enabling the contributors to live with dignity”
+_“Implement infrastructures and processes enabling to gather the different players of the food system who can, together, by cooperating, transform and open the door for a new system to emerge: both decentralized and efficient, respecting the soils and life in general, ensuring food security and sovereignty, and enabling the contributors to live with dignity”_
 
 Technologies and technical solutions are only tools that should be at the service of an intention. Too often we think that technologies are going to solve our problems. They won’t. Bees are dying and some biotech companies propose [to create GMO bees](https://worldnewsdailyreport.com/genetically-modified-ants-could-replace-honey-bees-claims-monsanto-expert/) that would become pesticides resistant… Is humanity becoming so dumb? So we are careful about first formulating our intention, and what challenges we want to solve together. Technologies are just means we can use to serve that intention.
 
-Next steps
+**Next steps**
 
 Now that we know why we are here and what we want to do, we need to explore deeper what it means to make our platforms interoperable? How can the semantic web and ontologies help us? What are the technical solutions that could help us? What would be the impacts for each actor? That’s what we are going to explore next!
 
