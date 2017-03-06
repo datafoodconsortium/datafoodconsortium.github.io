@@ -38,15 +38,15 @@ Yes, the topic concerns hundreds of players all over the world (see the [Food Da
 
 Inspired by the lean start-up approach, we are starting small, with a few actors around the table. Here are the first steps we have started to make together:
 
-*   **Gather people sharing a same intention** and ready to contribute with their beautiful energy, ideas and time. Serendipitous discussions gathered around the table [Open Food France](https://www.openfoodfrance.org//), [Cagette.net](http://www.cagette.net/), [Panier Local](http://www.panierlocal.org/), [La Ruche Qui Dit Oui](https://laruchequiditoui.fr/fr) ([The Food Assembly](https://thefoodassembly.com/en)), [Ekylibre](https://ekylibre.com/) and [Sony CSL](https://www.csl.sony.fr/sustainability.php).
+*   Gather people sharing a same intention and ready to contribute with their beautiful energy, ideas and time. Serendipitous discussions gathered around the table [Open Food France](https://www.openfoodfrance.org//), [Cagette.net](http://www.cagette.net/), [Panier Local](http://www.panierlocal.org/), [La Ruche Qui Dit Oui](https://laruchequiditoui.fr/fr) ([The Food Assembly](https://thefoodassembly.com/en)), [Ekylibre](https://ekylibre.com/) and [Sony CSL](https://www.csl.sony.fr/sustainability.php).
 
-*   **Hold a safe space** where conversations can happen in trust, at a “human and personal scale”. For that we meet online and offline (in Paris) 2 hours every other week.
+*   Hold a safe space where conversations can happen in trust, at a “human and personal scale”. For that we meet online and offline (in Paris) 2 hours every other week.
 
-*   **Facilitate the process** in order to make sure we always stick to our intention and move together step by step, slowly but surely. I have the pleasure to facilitate the group, make sure everyone is welcome and that our collective intelligence can emerge. I am supported in that job by the [Virtual Assembly](https://www.virtual-assembly.org/english/){:style="background-color: rgb(255, 255, 255);"} (who has a much better understanding on the technical aspects of the project!).
+*   Facilitate the process in order to make sure we always stick to our intention and move together step by step, slowly but surely. I have the pleasure to facilitate the group, make sure everyone is welcome and that our collective intelligence can emerge. I am supported in that job by the [Virtual Assembly](https://www.virtual-assembly.org/english/){:style="background-color: rgb(255, 255, 255);"} (who has a much better understanding on the technical aspects of the project!).
 
-*   **Start doing with a first prototype** as soon as possible, fail and learn, and try again, with quick iterations. That’s what we are going to do from now until summer. We are going to choose a use case and set it up. We’ll share the process at every stage through blog posts :-)
+*   Start doing with a first prototype as soon as possible, fail and learn, and try again, with quick iterations. That’s what we are going to do from now until summer. We are going to choose a use case and set it up. We’ll share the process at every stage through blog posts :-)
 
-*   **Build an open and collaborative governance** of the project. Some of the workshops planned in the coming months will be on governance.
+*   Build an open and collaborative governance of the project. Some of the workshops planned in the coming months will be on governance.
 
 **The first meeting happened end of January 2017.**
 
