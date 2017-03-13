@@ -56,7 +56,7 @@ If the players around the table want to evolve toward semantic data and benefit 
 
 Some of those approaches are based on a shared common, a solution that we decide to deploy together and use, because it benefits us all. Of course in that case we will need to build a collaborative governance around it. No choice need to be made at that stage, we will see when we move forward on the prototype what makes more sense, and the solution chosen can change when we move forward and work on other cases. But I think it does make sense **to ask ourselves at each moment the question: **
 
-> **what do we need to manage in common to make the life of the producers easier?**
+> **What do we need to manage in common to make the life of the producers easier?**
 
 ## Next steps
 
