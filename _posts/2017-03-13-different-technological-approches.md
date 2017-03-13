@@ -10,7 +10,7 @@ img: img/data.jpg
 comments: true
 date: 2017-02-22 10:17
 ---
-**February 22nd, 2017\. Second meeting.**  
+**February 22nd, 2017\. Second meeting.**
 
 Before we start getting our hands dirty on a concrete prototype, we wanted to take the time to build our collective awareness on what it means to interoperate our platforms. What can be the impact? What can be the technological solutions we could use? So that we can all engage with awareness.
 
@@ -54,7 +54,9 @@ If the players around the table want to evolve toward semantic data and benefit 
 
 4- A third party “pivot” tool called “semantic bus” is implemented and interfaced with every platform, so anytime a data is entered in a platform, it is “processed” by this semantic bus and can be reintegrated in a semantic format and/or shared given the rules agreed upon.
 
-Some of those approaches are based on a shared common, a solution that we decide to deploy together and use, because it benefits us all. Of course in that case we will need to build a collaborative governance around it. No choice need to be made at that stage, we will see when we move forward on the prototype what makes more sense, and the solution chosen can change when we move forward and work on other cases. But I think it does make sense **to ask ourselves at each moment the question: “what do we need to manage in common to make the life of the producers easier?”**
+Some of those approaches are based on a shared common, a solution that we decide to deploy together and use, because it benefits us all. Of course in that case we will need to build a collaborative governance around it. No choice need to be made at that stage, we will see when we move forward on the prototype what makes more sense, and the solution chosen can change when we move forward and work on other cases. But I think it does make sense **to ask ourselves at each moment the question: **
+
+> **what do we need to manage in common to make the life of the producers easier?**
 
 ## Next steps
 
