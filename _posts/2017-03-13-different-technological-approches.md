@@ -32,9 +32,9 @@ Data are currently entered in a specific way and format, depending on each platf
 Given the meta-ontology described, every platform can set up an API that will enable to “match” fields used by different platforms and display information from distant databases. This stage has more impact on how platforms and applications are built. The platform will now need to query not only its own database, but also distant databases through the API. Can it be done in a dynamic way? Is a proxy needed to copy the data into the platform database before displaying them?
 
 **4\. View.**  
-When the data has been “called” through the API and is ready to be displayed in the platform’s front end, the last step is to display it so that it can be read by the client in his browser. If the platform wants to display new field they need to add them, but else, Nno specific work needs to be done on the platform side.
+When the data has been “called” through the API and is ready to be displayed in the platform’s front end, the last step is to display it so that it can be read by the client in his browser. If the platform wants to display new field they need to add them, but else, no specific work needs to be done on the platform side.
 
-![](/img/platforms-exchange.jpg)
+![](/img/webdistribueenglish.jpeg)
 
 ## Which data are we talking about and what questions does that raise?
 
