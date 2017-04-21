@@ -4,11 +4,12 @@ layout: post
 title: Interoperate our platforms… what does it concretely mean? How can we make it
   happen?
 description: 'Starting to envision the data architecture: the different steps of the
-  data and the impacts of different technological approaches.'
+  data and the impacts of different technological approaches'
 auteur: Myriam Bouré
 img: img/data.jpg
 comments: true
 date: 2017-02-22 10:17
+img_credit: []
 ---
 **February 22nd, 2017\. Second meeting.**
 
