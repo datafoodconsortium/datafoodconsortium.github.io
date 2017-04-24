@@ -1163,7 +1163,7 @@ hr{
 .container-post {
   max-width : 840px;
 }
-.post p{
+.post p, .post li{
   font-family: {{ site.data.template.font.fourth }};
   font-size: 22px;
   word-spacing: 1px;
@@ -1173,7 +1173,7 @@ hr{
   line-height: 30px;
 }
 @media (min-width: 768px) {
-  .post p{
+  .post p, .post li{
   font-size: 24px;
   word-spacing: 2px;
   color: #3e3933;
@@ -1324,10 +1324,10 @@ hr{
   color:white
 }
 .search-list{
-  border-bottom: 1px solid #{{ site.data.template.color.primary }};
-  border-left: 1px solid #{{ site.data.template.color.primary }};
-  border-right: 1px solid #{{ site.data.template.color.primary }};
-  margin-top: -1px;
+  border-bottom: 2px solid #{{ site.data.template.color.primary }};
+  border-left: 2px solid #{{ site.data.template.color.primary }};
+  border-right: 2px solid #{{ site.data.template.color.primary }};
+  margin-top: -2px;
 }
 #search-input {
   font-size: 20px;
@@ -1464,5 +1464,6 @@ margin-bottom: 40px;
   font-weight: 200;
 }
 .post h2 {
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
