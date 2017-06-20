@@ -4,14 +4,14 @@ layout: post
 title: 'Building a common language : our semantic business concepts model'
 description: A first version of our business concepts ontology
 auteur: Myriam Bouré
-img: "/img/plugs.jpg"
+img: "img/plugs.jpg"
 comments: true
 date: 2017-06-20 11:56
 img_credit:
 - name: Kiddo
   url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Israeli-type-H-plugs-and-socket.jpg
   license-name: Wikimedia Commons
-  license-url: ''
+  license-url: 'https://commons.wikimedia.org/wiki/Commons:Licensing'
 ---
 
 
@@ -57,13 +57,13 @@ We needed at least 4-5 iterations to manage to describe things in a way that mad
 
 Here is the list of concepts we came up with (click on the image to see the full document) :
 
-![](/img/diapo.jpg)
+<a href="https://drive.google.com/file/d/0B_HDFsX1e_2Vc2NkODYwVXg0V28/view" target="_blank"><img src="/img/diapo.jpg"></a>
 
 As a side, we were playing with those concepts and putting them in relation with one another in a relational business concept model. As an image speaks better than a long talk, check it here :
 
-![](/img/diapo2.jpg)
-
 As you will see, the business ontology contains a products ontology. The product description is really the base of the retail business, but local / short supply chain / direct retail has specific needs in terms of products ontology that retails standards don’t answer.
+
+<a href="https://drive.google.com/file/d/0B_HDFsX1e_2VbFVLZEY5Tk95XzA/view" target="_blank"><img src="/img/diapo2.jpg"></a>
 
 _Comment:_ we chose for the moment a Creative Commons license that doesn’t allow to modify the work. Indeed, the interest of standardization is to build a common standard, so we want to iterate and make the standard evolve, with a collaborative process and governance. But we want the future adopters of that standard to join us and work with us in the evolution of that common standard.
 
@@ -90,4 +90,3 @@ In all that reflexion, we realized that our first idea of building a prototype a
 ## Next step
 
 Now that we have a first version of our business concepts ontology, we want to publish it, share, and get feedback so that we can iterate on it. Also, we are envisioning various options to structure our consortium in a way that will enable it to operate on a longer term. We are discussing with different standardization players, as we are conscious that the work of maintaining and updating on a regular basis that ontology is not trivial. We don’t want to work alone on our side, we want the work we are doing to converge with more generic business ontologies, and we hope we can contribute in evolving those ontologies with the specific reflexion we had on local / direct / short supply chains business concepts. Of course, we continue to move on with the prototype and will now need to find the good technical solutions to implement this standard. Get ready for the next episode in a few weeks !
-
