@@ -57,13 +57,6 @@ We needed at least 4-5 iterations to manage to describe things in a way that mad
 
 Here is the list of concepts we came up with (click on the image to see the full document) :
 
-<a href="https://drive.google.com/file/d/0B_HDFsX1e_2Vc2NkODYwVXg0V28/view" target="_blank"><img src="/img/diapo.jpg"></a>
-
-As a side, we were playing with those concepts and putting them in relation with one another in a relational business concept model. As an image speaks better than a long talk, check it here :
-
-As you will see, the business ontology contains a products ontology. The product description is really the base of the retail business, but local / short supply chain / direct retail has specific needs in terms of products ontology that retails standards don’t answer.
-
-<a href="https://drive.google.com/file/d/0B_HDFsX1e_2VbFVLZEY5Tk95XzA/view" target="_blank"><img src="/img/diapo2.jpg"></a>
 
 _Comment:_ we chose for the moment a Creative Commons license that doesn’t allow to modify the work. Indeed, the interest of standardization is to build a common standard, so we want to iterate and make the standard evolve, with a collaborative process and governance. But we want the future adopters of that standard to join us and work with us in the evolution of that common standard.
 
