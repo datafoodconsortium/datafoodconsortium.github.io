@@ -15,8 +15,7 @@ While iterating on our first version of a semantic business modelization for loc
 
 [Bernard Chabot](https://www.linkedin.com/in/chabotbernard/), the architect who supports us in the definition of our semantic business modelization, has been working with dozens of industries, in very different domains. From garments to energy, from heavy industry to agro-industry. He realized after all those concrete use cases that there were some common “patterns”, an underlying invariant model to describe products, which is the same for any product we talk about. It took us some time to understand how exactly that model fit for simple unprocessed food products, but now this use case have become very clear, and we are happy to share with you our common reflexion.
 
-##   
-**There are 6 different products in a product modelization** 
+## **There are 6 different products in a product modelization** 
 
 1- _As required product_ = the “product” you define by the objective you want to satisfy, independently from what the product does
 
@@ -36,8 +35,9 @@ Note that for the _As required product_ (#1) and the _As defined product_ (#2), 
   
 You can click on the image below to open the file :
 
-## [![](/img/Business%20Model%20Convergence%20Effort%20(1).jpg)](https://drive.google.com/open?id=0B_HDFsX1e_2VNUNBaWx3QXBJRjA)  
-**Let’s take the case of a jar of tomato sauce**
+[![](/img/Business%20Model%20Convergence%20Effort%20(1).jpg)](https://drive.google.com/open?id=0B_HDFsX1e_2VNUNBaWx3QXBJRjA)
+
+## **Let’s take the case of a jar of tomato sauce**
 
 1- The objective can be for instance : satisfy my taste pleasure
 
@@ -54,8 +54,7 @@ You can click on the image below to open the file :
   
 The case of processed food fits pretty well in that generic universal model. Let’s go one step further and see how that applies to some unprocessed product like a tomato.
 
-##   
-**Let’s take the case of a “black cherry” tomato**
+## **Let’s take the case of a “black cherry” tomato**
 
 1- The objective can be for instance = have a balance diet.
 
