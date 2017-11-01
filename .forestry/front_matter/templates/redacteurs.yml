@@ -1,0 +1,58 @@
+---
+pages:
+- _redacteurs/myriam-boure.md
+- _redacteurs/arthur.md
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: auteur
+- name: title
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+  description: 'Name and Family name. Ex: John Doe'
+- name: social
+  label: Social links
+  type: field_group_list
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+    description: 'Name of social account (no capital letters) Ex: facebook'
+  - name: url
+    label: Url
+    type: text
+    hidden: false
+    default: ''
+    description: Url to social account page
+  hidden: false
+  default: ''
+  description: Name and links to social accounts for this author
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+  description: Mini biography
+- name: date
+  label: Date
+  type: datetime
+  hidden: true
+  default: ''
+- name: avatar
+  label: Avatar
+  type: file
+  hidden: false
+  default: ''
+  description: Profile picture (try to keep it small, like 200x200 pixels)
+- name: lang
+  label: Lang
+  type: text
+  hidden: true
+  default: en

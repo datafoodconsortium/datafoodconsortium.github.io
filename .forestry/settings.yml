@@ -1,0 +1,9 @@
+---
+upload_path: "/img/"
+frontmatter_file_url_template: img/
+body_file_url_template: "/img/"
+new_page_extension: md
+auto_deploy: false
+admin_path: "/admin"
+webhook_url: 
+collections: 

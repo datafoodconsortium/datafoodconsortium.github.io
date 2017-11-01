@@ -1,0 +1,44 @@
+---
+pages:
+- _membres/gs1-france.md
+- _membres/mooveat.md
+- _membres/ekylibre.md
+- _membres/panierlocal.md
+- _membres/openfood.md
+- _membres/la-ruche-qui-dit-oui.md
+- _membres/cagette.md
+hide_body: false
+fields:
+- name: title
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+  description: Name of this member
+- name: nom
+  label: Nom
+  type: text
+  hidden: true
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: img
+  label: Logo
+  type: file
+  hidden: false
+  default: ''
+  description: Upload logo image of this member
+- name: website
+  label: Website
+  type: text
+  hidden: false
+  default: ''
+  description: Website url of this member
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: ''

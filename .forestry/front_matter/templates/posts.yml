@@ -1,0 +1,85 @@
+---
+pages:
+- _posts/product-ontologies-how-business-invariants-apply-also-to-the-food-system.md
+- _posts/2017-03-13-different-technological-approches.md
+- _posts/2017-03-03-setting-up-space.md
+- _posts/2017-04-24-use-cases.md
+hide_body: false
+fields:
+- name: lang
+  label: Lang
+  type: text
+  hidden: true
+  default: en
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  description: Title of this article
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+  description: Short description / subtitle
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+  description: 'Date this article is written '
+- name: img
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+  description: Main image for this article
+- name: img_credit
+  label: Image credit
+  type: field_group_list
+  fields:
+  - name: name
+    label: Name
+    type: text
+    hidden: false
+    default: ''
+    description: Name of owner/creator of this image
+  - name: url
+    label: Url
+    type: textarea
+    hidden: false
+    default: ''
+    description: url to original image
+  - name: license-name
+    label: License name
+    type: text
+    hidden: false
+    default: ''
+    description: 'Type of license. Ex: Creative Commons'
+  - name: license-url
+    label: License url
+    type: text
+    hidden: false
+    default: ''
+    description: 'ex: https://creativecommons.org/licenses/by-nc/2.0/'
+  hidden: false
+  default: ''
+  description: 'If relevant '
+- name: auteur
+  label: Author
+  type: text
+  hidden: false
+  default: ''
+  description: 'Name and Family name. Ex: John Doe'
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: ''
+  description: Trigger Disqus comment module for this article
