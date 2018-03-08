@@ -29,7 +29,6 @@ $(function() {
                     message: message,
                     _subject: _subject,
                     _replyto: _replyto
-
                 },
                 cache: false,
                 success: function() {
