@@ -4,13 +4,13 @@ layout: post
 title: 'Business ontology and product thesaurus: v.1 published after a year of regular
   iterations'
 description: Some tips to understand the v.1 of the DFC standard
-auteur: ''
-img: ''
-comments: false
+auteur: René Rauschenberger
+img: img/puzzle-3288075_1920.jpg
+comments: true
 date: 2018-05-28 00:00:00 +0000
 img_credit: []
 ---
-**May, 2018.** 
+**May, 2018.**
 
 Since a year we’ve been working to build a common language in order to interoperate our platforms. With [Bernard Chabot](https://www.linkedin.com/in/chabotbernard/) we went from sessions when we theorized concepts and relations, to sessions with business actors to test our theoretical modelization and evolve it step by step.
 
@@ -18,29 +18,30 @@ We are now reaching a point where we are confident enough in our model to test i
 
 Check [our Github repository](https://github.com/datafoodconsortium/ontology) :-)
 
-## How we have evolved since a year on business description
+## How we have evolved since a year on our business description
 
-Since the v.0 we published last June, a lot of things have changed! It is really a journey to reach a point where we manage to cover all the use case of our businesses in a simple and consistent shared model.
+Since the v.0 we published last June, a lot of things have changed! It is really a journey to reach a point where we manage to cover all the use cases of our businesses in a simple and consistent shared model.
 
-Here is the image of the model we ended up with \[add Yed image\]
+Here is the [image](https://drive.google.com/open?id=1fE2ys40KXDmjlF1EQG0z3Z1kuDhhbDaP) of the business model we ended up with:  
+![](/img/Modèle Métier - Modèle Sémantique de Concepts - Relations.jpg)
 
-**Products:** 
+**Products:**
 
-* We have identified the different concepts of products we manipulate. As described in [this blogpost from November](http://datafoodconsortium.org/blog/product-ontologies-how-business-invariants-apply-also-to-the-food-system) we distinguished the product “need” (what I want as a customer), from the product “answer” (what I propose as a distributor to satisfy your need), from the product “supply” (what I propose as a producer that enable distributors to meet their promises to customers), all those products being manipulated without any “location” notion. 
+* We have identified the different concepts of products we manipulate. As described in [this blogpost from November](http://datafoodconsortium.org/blog/product-ontologies-how-business-invariants-apply-also-to-the-food-system) we distinguished the product “need” (what I want as a customer), from the product “answer” (what I propose as a distributor to satisfy your need), from the product “supply” (what I propose as a producer that enable distributors to meet their promises to customers), all those products being manipulated without any “location” notion.
 * Then a producer identifies a location where their products are supposed to be when they become real product. We call them “localized products”, which is a combination between an ID product (what product it is) and an ID place (where it is). For instance, the potatoes of “Awesome farm” are in theory localized in the farm itself.
 * When the potatoes get harvested they become “physical products”, real products that you can hold in your hand. A physical product is also always located somewhere, and belongs to a product batch.
 
 **Transformation:**
 
-* Some products are “composed products”, they are made of other products, processed in some way to make a new product, like a tomato sauce for instance. There is a theoretical transformation that plans a transformation process without any notion of where the products are located, the “recipe” that connects products with one another independently from where they could be. For instance as an artisan cookies maker I can tell that I put 100g flour, 20g chocolate, 2 eggs, etc. in my cookies. In that case I express the recipe in term of “functional products”, I need flour and chocolate. I can be more precise and tell which type exactly of flour and chocolate I use and talk more in term of “technical products”, like spelt flour T110. And I can even tell exactly the flour from which farmer I used in my recipe, so express the recipe in terms of other “supplied products”. This is what we call the “as planned transformation flow”.
-* Then this recipe becomes something more like a “production workflow” that adds some notion of location. I have to move the tomato from “Awesome farm” to “TheKitchen”, the onions from “The Other Farm” to “TheKitchen”, etc. When all my components are in TheKitchen I can start the production process, cook, mix, bottle, etc. And get some jar of tomato sauce as output, which are located in “TheKitchen”. But this is still only a plan, a production map, I still don’t have the products, I’m just organizing and planning the operations. We realized when iterating that **transforming the nature of a located product was exactly the same flow as transforming the place where this product is supposed to be located**. As the located product is a combination of an ID product and an ID place, one flow was transforming the ID product, the other the ID place. So **we are treating transportation as a specific transformation flow**. Input will be for instance 100 x potatoes 1kg located in “Awesome Farm” and output will be 100 x potatoes 1kg located in “The Great Town Shop”.
+* Some products are “composed products”, they are made of other products, processed in some way to make a new product, like a tomato sauce for instance. There is a theoretical transformation that plans a transformation process without any notion of where the products are located, the “recipe” that connects products with one another independently from where they could be. For instance as an artisan cookies maker I can tell that I put 100g flour, 20g chocolate, 2 eggs, etc. in my cookies. In that case I express the recipe in term of “functional products”, I need flour and chocolate. I can be more precise and tell which type exactly of flour and chocolate I use and talk more in term of “technical products”, like wheat flour T110. And I can even tell exactly the flour from which farmer I used in my recipe, so express the recipe in terms of other “supplied products”. This is what we call the “as planned transformation flow”.
+* Then this recipe becomes something more like a “production workflow” that adds some notion of location. I have to move the tomato from “Awesome farm” to “TheKitchen”, the onions from “The Other Farm” to “TheKitchen”, etc. When all my components are in "TheKitchen" I can start the production process, cook, mix, bottle, etc. And get some jar of tomato sauce as output, which are located in “TheKitchen”. But this is still only a plan, a production map, I still don’t have the products, I’m just organizing and planning the operations. We realized when iterating that **transforming the nature of a located product was exactly the same flow as transforming the place where this product is supposed to be located**. As the localized product is a combination of an ID product and an ID place, one flow was transforming the ID product, the other the ID place. So **we are treating transportation as a specific transformation flow**. Input will be for instance 100 x potatoes 1kg located in “Awesome Farm” and output will be 100 x potatoes 1kg located in “The Great Town Shop”.
 * Then when physical products are concerned this flow becomes a “realized transformation flow”.
 
-**Sales session:**
+**Sale session:**
 
-* A sales session aggregates some “offers” that an enterprise makes and that are specific to customer categories. The product offered can be, depending on the sales and marketing strategy of the distributor, a functional product (ex: tomatoes to stuff), a technical product (ex: beefsteak tomatoes) or a supplied product (ex: beefsteak tomatoes from Awesome Farm).
-* The customer makes an order with various order lines in a specific sales session and choose a shipping option, that can be delivery (they are delivered to their home or business address) or pick-up (they need to collect the product in a location defined by the distributor) and a payment option among those defined by the distributor.
-* The sale happens in a place that can be physical (a physical store) or virtual (an online store). Note that this works as well for a physical store: technically each day the store opens and close at a define time, and each day can be considered as a specific sales session. In the case of physical store sales, the shipping option is implicitly “collect on site”.
+* A sale session aggregates some “offers” that an enterprise makes and that are specific to customer categories. The product offered can be, depending on the sales and marketing strategy of the distributor, a functional product (ex: tomatoes to stuff), a technical product (ex: beefsteak tomatoes) or a supplied product (ex: beefsteak tomatoes from Awesome Farm).
+* The customer makes an order with various order lines in a specific sale session and choose a shipping option - that can be delivery (they are delivered to their home or business address) or pick-up (they need to collect the product in a location defined by the distributor) - and a payment option among those defined by the distributor.
+* The sale happens in a place that can be physical (a physical store) or virtual (an online store). Note that this works as well for a physical store: technically each day the store opens and close at a define time, and each day can be considered as a specific sale session. In the case of physical store sales, the shipping option is implicitly “collect on site”.
 
 **Transactions:**
 
@@ -50,7 +51,7 @@ Here is the image of the model we ended up with \[add Yed image\]
 
 We studies different option for product glossaries/thesaurus. Our challenge is to **make sure we can identify uniquely products from one platform to another so that information regarding this product flow without friction.** As each platform has its own way of describing products, and its own logic, we choose to adopt a “facet approach” a little bit like [Langual](http://www.langual.org/langual_Thesaurus.asp) but we couldn’t use Langual as in local food system, not only food products are sold. People sell and buy soap, cosmetics, cleaning products, etc.
 
-Also, IDs like GTIN doesn’t meet our need as a GTIN doesn’t tell the precise nature of a product, like the variety of an apple. Some webshops specialized in fruits might want to classify apples in different product categories depending on variety for instance, so GTIN is not enough.
+Also, IDs like GTIN (barcode  identification) doesn’t meet our need as a GTIN doesn’t tell the precise nature of a product, like the variety of an apple. Some webshops specialized in fruits might want to classify apples in different product categories depending on variety for instance, so GTIN is not enough.
 
 So we choose the following “criteria” to uniquely identify products:
 
