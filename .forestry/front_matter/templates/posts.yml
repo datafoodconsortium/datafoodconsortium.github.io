@@ -1,10 +1,6 @@
 ---
-pages:
-- _posts/2017-11-01-product-ontologies-how-business-invariants-apply-also-to-the-food-system.md
-- _posts/2017-03-13-different-technological-approches.md
-- _posts/2017-03-03-setting-up-space.md
-- _posts/2017-04-24-use-cases.md
 hide_body: false
+is_partial: false
 fields:
 - name: lang
   label: Lang
@@ -83,3 +79,10 @@ fields:
   hidden: false
   default: ''
   description: Trigger Disqus comment module for this article
+pages:
+- _posts/business-ontology-and-product-thesaurus-v-1-published-after-a-year-of-regular-iterations.md
+- _posts/2017-11-01-product-ontologies-how-business-invariants-apply-also-to-the-food-system.md
+- _posts/2017-06-20-building-a-common-language-our-semantic-business-concepts-model.md
+- _posts/2017-03-13-different-technological-approches.md
+- _posts/2017-03-03-setting-up-space.md
+- _posts/2017-04-24-use-cases.md
