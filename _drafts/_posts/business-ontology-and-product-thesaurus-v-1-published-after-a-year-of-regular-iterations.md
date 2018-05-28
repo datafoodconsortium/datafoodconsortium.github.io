@@ -53,6 +53,8 @@ We studies different option for product glossaries/thesaurus. Our challenge is t
 
 Also, IDs like GTIN (barcode  identification) doesn’t meet our need as a GTIN doesn’t tell the precise nature of a product, like the variety of an apple. Some webshops specialized in fruits might want to classify apples in different product categories depending on variety for instance, so GTIN is not enough.
 
+![](/img/Modèle Métier - Modèle Sémantique de Concepts - Relations (1).jpg)
+
 So we choose the following “criteria” to uniquely identify products:
 
 * First a **product type**, we are building a home made taxonomy that is more **“sales oriented”**. It tells if we talk about a carrot or a soap or a chili con carne or a camembert cheese.
@@ -88,7 +90,8 @@ Our next step on the standard development are:
 
 * test live this first stable version of the standard through the development of a “live prototype”
 * modularize better and build the appropriate intersection models
+* connect adapted tables behind each of the facets in the product glossaries. For the prototype we will start with sample data to serve demo purpose.
 
 Also we are still moving forward on structuring the consortium. We are at the moment writing the “games rules” for the Data Food Consortium community and will publish them soon, using the [#codesocial](http://codesocial.org/) methodology. We are applying for some grants as well at the moment to be able to start paying the job of the team working actively on this project.
 
-So here is where we are at! Feel free to comment on GitHub and contact us on [hello@datafoodconsortium.org](mailto:hello@datafoodconsortium.org) :-)
+So here is where we are at! Feel free to comment on GitHub, or on this post, and [contact us]() :-)
