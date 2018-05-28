@@ -10,18 +10,13 @@ comments: false
 date: 2018-05-28 00:00:00 +0000
 img_credit: []
 ---
-## May, 2018. 
+**May, 2018.** 
 
 Since a year we’ve been working to build a common language in order to interoperate our platforms. With [Bernard Chabot](https://www.linkedin.com/in/chabotbernard/) we went from sessions when we theorized concepts and relations, to sessions with business actors to test our theoretical modelization and evolve it step by step.
 
-We are now reaching a point where we are confident enough in our model to test it live. So we are releasing 4 documents :
+We are now reaching a point where we are confident enough in our model to test it live. So we are releasing a bunch of files that all together make the DFC interoperability standard.
 
-* A pprj and owl file for business ontology. They encompass the main business concepts we manipulate in local food businesses.
-* The associated glossary (we need to integrate the definitions into the above files, we keep that file meanwhile)
-* A pprj and owl file for product glossary. Those files encompass what is needed to describe and identify products. They are meant to be connected to existing or home made thesaurus, but that will be for a further iteration.
-* A pprj and owl file called “full model” that make the junction between business ontology and product glossary.
-
-\[add links to Github\]
+Check [our Github repository](https://github.com/datafoodconsortium/ontology) :-)
 
 ## How we have evolved since a year on business description
 
