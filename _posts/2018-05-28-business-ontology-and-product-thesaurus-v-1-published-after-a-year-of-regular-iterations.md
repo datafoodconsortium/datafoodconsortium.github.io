@@ -78,7 +78,7 @@ For now we have only separated the business logic from the product nature logic.
 
 So we will probably go toward a standard architecture that could look like that:
 
-![](https://lh3.googleusercontent.com/wGPQ7aCO6jWnLvdUOZDH_gLGEvKUReA0uMBKQDJDkZQ5xMgd-BTWp2srz2rbRg1Tb9Kh2vEUGqsjwwqAItg_PJfGkafAKCLcuvYgdQuhOQiMY0daaSHQQEPoXs4EY4kkNwblOAxh =624x345)
+![](/img/Screenshot from 2018-07-05 23-31-17.png)
 
 We need some more thinking with Bernard and the consortium members on that, and that will be part of the work for the next iterations.
 
