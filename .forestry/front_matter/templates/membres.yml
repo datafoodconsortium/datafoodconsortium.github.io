@@ -1,4 +1,5 @@
 ---
+label: Membres
 hide_body: false
 is_partial: false
 fields:
@@ -36,10 +37,9 @@ fields:
   hidden: true
   default: ''
 pages:
-- _membres/mooveat.md
-- _membres/gs1-france.md
 - _membres/cagette.md
-- _membres/la-ruche-qui-dit-oui.md
-- _membres/openfood.md
-- _membres/panierlocal.md
 - _membres/ekylibre.md
+- _membres/openfood.md
+- _membres/la-ruche-qui-dit-oui.md
+- _membres/gs1-france.md
+- _membres/panierlocal.md
