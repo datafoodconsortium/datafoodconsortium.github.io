@@ -6,16 +6,17 @@ description: Deep diving into food products modelization
 auteur: Myriam Bouré
 img: img/blogpost5.jpg
 comments: true
-date: 2017-11-01 00:00:00 +0000
+date: 2017-11-01T13:00:24+00:00
 img_credit: []
+
 ---
-**November, 2017.** 
+**November, 2017.**
 
 While iterating on our first version of a semantic business modelization for local food systems, we realized we were misleading. We took some concrete examples and realized we had too many objects to describe a product, we also realized when working on the logistic flows that we were missing some objects and relations. So we are going to publish soon a new version of that model. But meanwhile I wanted to write a quick post on the product modelization.
 
 [Bernard Chabot](https://www.linkedin.com/in/chabotbernard/), the architect who supports us in the definition of our semantic business modelization, has been working with dozens of industries, in very different domains. From garments to energy, from heavy industry to agro-industry. He realized after all those concrete use cases that there were some common “patterns”, an underlying invariant model to describe products, which is the same for any product we talk about. It took us some time to understand how exactly that model fit for simple unprocessed food products, but now this use case have become very clear, and we are happy to share with you our common reflexion.
 
-## **There are 6 different products in a product modelization** 
+## **There are 6 different products in a product modelization**
 
 1- _As required product_ = the “product” you define by the objective you want to satisfy, independently from what the product does
 
@@ -29,10 +30,8 @@ While iterating on our first version of a semantic business modelization for loc
 
 6- _As built products_ = the product built at a certain time, by a certain person and following a certain production method. An _as build product_ is then defined by a “product batch”, and each physical product belongs to a certain product batch.
 
-  
 Note that for the _As required product_ (#1) and the _As defined product_ (#2), those are not really “products” yet, they are products “in the making”, or “potential products”, but they are not yet realized into some designed product that has a shape, a texture, etc.
 
-  
 You can click on the image below to open the file :
 
 [![](/img/Business%20Model%20Convergence%20Effort%20(1).jpg)](https://drive.google.com/open?id=0B_HDFsX1e_2VNUNBaWx3QXBJRjA)
@@ -51,7 +50,6 @@ You can click on the image below to open the file :
 
 6- And it will be built at a certain date, defining the product batch of the actual physical jar of tomato sauce, with a specific expiration date.
 
-  
 The case of processed food fits pretty well in that generic universal model. Let’s go one step further and see how that applies to some unprocessed product like a tomato.
 
 ## **Let’s take the case of a “black cherry” tomato**
