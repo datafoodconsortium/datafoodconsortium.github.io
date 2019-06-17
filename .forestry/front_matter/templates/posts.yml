@@ -80,7 +80,7 @@ fields:
   default: ''
   description: Trigger Disqus comment module for this article
 pages:
-- _posts/moving-towards-a-living-prototype-a-set-of-technical-and-political-decisions.md
+- _posts/2019-06-18-moving-towards-a-living-prototype-a-set-of-technical-and-political-decisions.md
 - _posts/2017-03-13-different-technological-approches.md
 - _posts/2017-04-24-use-cases.md
 - _posts/2018-05-28-business-ontology-and-product-thesaurus-v-1-published-after-a-year-of-regular-iterations.md
