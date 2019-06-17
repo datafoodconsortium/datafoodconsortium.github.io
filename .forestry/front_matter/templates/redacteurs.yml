@@ -55,5 +55,5 @@ fields:
   hidden: true
   default: en
 pages:
-- _redacteurs/myriam-boure.md
 - _redacteurs/arthur.md
+- _redacteurs/myriam-boure.md

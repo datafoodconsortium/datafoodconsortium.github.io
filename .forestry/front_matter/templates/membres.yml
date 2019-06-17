@@ -37,7 +37,7 @@ fields:
   default: ''
 pages:
 - _membres/cagette.md
-- _membres/ekylibre.md
 - _membres/openfood.md
-- _membres/la-ruche-qui-dit-oui.md
 - _membres/panierlocal.md
+- _membres/la-ruche-qui-dit-oui.md
+- _membres/ekylibre.md
