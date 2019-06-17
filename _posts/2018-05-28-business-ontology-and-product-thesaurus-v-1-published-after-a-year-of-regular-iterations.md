@@ -4,11 +4,12 @@ layout: post
 title: 'Business ontology and product thesaurus: v.1 published after a year of regular
   iterations'
 description: Some tips to understand the v.1 of the DFC standard
-auteur: René Rauschenberger
+auteur: Myriam Bouré
 img: img/puzzle-3288075_1920.jpg
 comments: true
-date: 2018-05-28 00:00:00 +0000
+date: 2018-05-28T17:57:11+02:00
 img_credit: []
+
 ---
 **May, 2018.**
 
