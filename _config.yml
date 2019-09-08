@@ -34,6 +34,9 @@ t:
   objectifs:
    name: "Objectifs"
    url: "#objectifs"
+  realisations:
+   name: "Réalisations"
+   url: "#realisations"
   team:
    name: "Membres"
    url: "#team"
@@ -47,6 +50,9 @@ t:
   objectives:
    name: "Goals"
    url: "#goals"
+  achievements:
+   name: "Achievements"
+   url: '#achievements'
   members:
    name: "Members"
    url: "#team"
@@ -61,6 +67,9 @@ foot:
    objectifs:
     name: "Objectifs"
     url: "#objectifs"
+   realisations:
+    name: "Réalisations"
+    url: "#realisations"
    team:
     name: "Membres"
     url: "#team"
@@ -74,6 +83,9 @@ foot:
    objectives:
     name: "Goals"
     url: "#goals"
+   achievements:
+    name: "Achievements"
+    url: '#achievements'
    members:
     name: "Members"
     url: "#team"
