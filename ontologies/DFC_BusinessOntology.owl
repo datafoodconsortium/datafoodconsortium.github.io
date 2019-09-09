@@ -9,7 +9,7 @@
     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xml:base="http://datafoodconsortium.org/ontologies/DFC_BusinessOntology">
+  xml:base="http://datafoodconsortium.org/ontologies/DFC_BusinessOntology.owl">
   <owl:Ontology rdf:about=""/>
   <owl:Class rdf:ID="DFC_Where_Subject">
     <rdfs:label xml:lang="fr">Sujet de l'ontologie DFC répondant à la question "Où?"</rdfs:label>
