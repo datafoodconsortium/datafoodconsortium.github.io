@@ -22,3 +22,6 @@ To add an image inside an article, simply add a blank line somewhere and a popup
 
 
 For more details, read the [jekyll documentation](http://jekyllrb.com/) and the [forestry.io documentation](http://forestry.io/docs/)
+
+
+Ontology files need to be synchronized manually from https://github.com/datafoodconsortium/ontology. Basically you need to copy all the OWL files into the ontologies/ folder, then you create a Pull Request with these changes and merge it on the master branch of the main repository. Once merged, it is directly live on production.
