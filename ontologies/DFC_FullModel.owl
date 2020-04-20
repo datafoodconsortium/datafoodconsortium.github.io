@@ -38,7 +38,7 @@
         <dc:publisher>
            <foaf:Organization>
              <foaf:homepage rdf:resource="http://datafoodconsortium.org/"/>
-             <foaf:name>Data Food Consortium</foaf:name>
+             <foaf:name>data food consortium</foaf:name>
            </foaf:Organization>
         </dc:publisher>
         <dc:contributor>
