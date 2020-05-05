@@ -14,19 +14,19 @@ img_credit:
   license-name: ''
 
 ---
-Nous sommes très heureux de vous annoncer que le projet Data Food Consortium franchit une nouvelle étape ! Nous aurons bientôt l'occasion de vous en dire plus.  
-En attendant, afin de préparer l'avenir **nous recrutons un.e chargé.e de mission** pour un poste de développement et animation de communauté.  
-  
+Nous sommes très heureux de vous annoncer que le projet Data Food Consortium franchit une nouvelle étape ! Nous aurons bientôt l'occasion de vous en dire plus :-)  
+En attendant, afin de préparer l'avenir **nous recrutons un.e chargé.e de mission** pour un poste de développement et animation de communauté.
+
 Tu as un bon relationel et une solide expérience dans l'animation de communauté ? Mêler alimentation et web ne te fait pas peur ? Et bien lis la suite !
 
 **Présentation de la structure Open Food France**
 
-Le projet [**Data Food Consortium **](http://datafoodconsortium.org/)est pour l'instant porté par l'association Open Food France, mais va faire l’objet dans l’année d'une création de structure distincte.  
-  
+Le projet [**Data Food Consortium **](http://datafoodconsortium.org/)est pour l'instant porté par l'association Open Food France, mais va faire l’objet dans l’année d'une création de structure distincte.
+
 [**Open Food France**](https://apropos.openfoodfrance.org/ "Open Food France") en quelques mots : c'est une association créée en 2016 dont l’objet est de soutenir la performance et la démultiplication des initiatives de distribution alimentaire en circuit court. Pour cela, l’association développe principalement trois projets :
 
 * **Le développement de logiciels open source pour soutenir une organisation efficace et performante des circuits courts**
-* **L’étude des modèles d’organisation des circuits courts, l’analyse et la documentation des pratiques**, pour soutenir une structuration organisationnelle et économique performante. 
+* **L’étude des modèles d’organisation des circuits courts, l’analyse et la documentation des pratiques**, pour soutenir une structuration organisationnelle et économique performante.
 * **Le développement d’un standard ouvert permettant un partage fluide d’information: le Data Food Consortium**
 
 **Détails de la mission**
@@ -43,14 +43,12 @@ Les activités suivantes devront être menées à bien :
 
 **Compétences recherchées**
 
-Nous recherchons une personne ayant un **bon relationnel**, habile dans l’animation et la **facilitation de communautés** à la fois virtuelles (via des réseaux sociaux ou outils de travail collaboratifs) et physiques (lors d’événements rassemblant l’écosystème), avec des compétences spécifiques en communication à la fois orale (conférences) et écrite (rédaction de newsletters, etc.), mais aussi familière des technologies du web et ayant une bonne connaissance du fonctionnement et de l’écosystème des **circuits courts alimentaires** (ou l’envie de développer une expertise spécifique sur ces sujets circuits courts & numérique).   
+Nous recherchons une personne ayant un **bon relationnel**, habile dans l’animation et la **facilitation de communautés** à la fois virtuelles (via des réseaux sociaux ou outils de travail collaboratifs) et physiques (lors d’événements rassemblant l’écosystème), avec des compétences spécifiques en communication à la fois orale (conférences) et écrite (rédaction de newsletters, etc.), mais aussi familière des technologies du web et ayant une bonne connaissance du fonctionnement et de l’écosystème des **circuits courts alimentaires** (ou l’envie de développer une expertise spécifique sur ces sujets circuits courts & numérique).  
 La maîtrise de l’anglais est **obligatoire**.
 
 **Modalités de travail**
 
 * **1 jour / semaine** pour commencer, pouvant évoluer vers 2 jours / semaine
-
-
 * Possibilité de recrutement en mode salariat ou en mode freelance (facturant la structure)
 * **Lieu de travail** : l’équipe sur ce projet est aujourd’hui distribuée entre Paris, Crest et Nantes. Nous travaillons à distance, beaucoup via Slack et en visioconférence, depuis nos domiciles personnels. Si besoin, nous pouvons envisager la location d’un bureau en espace de coworking.
 
