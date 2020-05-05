@@ -21,7 +21,7 @@ Tu as un bon relationel et une solide expérience dans l'animation de communaut�
 
 **Présentation de la structure Open Food France**
 
-Le projet [**Data Food Consortium **](http://datafoodconsortium.org/)est pour l'instant porté par l'association Open Food France, mais va faire l’objet dans l’année d'une création de structure distincte.
+Le projet [**Data Food Consortium**](http://datafoodconsortium.org/) est pour l'instant porté par l'association Open Food France, mais va faire l’objet dans l’année d'une création de structure distincte.
 
 [**Open Food France**](https://apropos.openfoodfrance.org/ "Open Food France") en quelques mots : c'est une association créée en 2016 dont l’objet est de soutenir la performance et la démultiplication des initiatives de distribution alimentaire en circuit court. Pour cela, l’association développe principalement trois projets :
 
