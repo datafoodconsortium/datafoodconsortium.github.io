@@ -63,5 +63,5 @@ La maîtrise de l’anglais est **obligatoire**.
 
 **Modalités de candidature :**
 
-* Envoyer un email de candidature expliquant votre appétence pour les sujets traités, vos compétences actuelles et/ou votre motivation pour acquérir les compétences manquantes + un CV à [cette adresse](mailto:hello@datafoodconsortium.org).
+* Envoyer un email de candidature expliquant votre appétence pour les sujets traités, vos compétences actuelles et/ou votre motivation pour acquérir les compétences manquantes + un CV à [cette adresse](mailto:recrutement@openfoodfrance.org).
 * Date limite de candidature : **19 mai**
