@@ -19,7 +19,7 @@ En attendant, afin de préparer l'avenir **nous recrutons un.e chargé.e de miss
 
 Tu as un bon relationel et une solide expérience dans l'animation de communauté et la coordination de projets ? Mêler alimentation et web ne te fait pas peur ? Et bien lis la suite !
 
-**Présentation de la structure Open Food France**
+### **Présentation de la structure Open Food France**
 
 Le projet [**Data Food Consortium**](http://datafoodconsortium.org/) est pour l'instant porté par l'association Open Food France, mais va faire l’objet dans l’année d'une création de structure distincte.
 
@@ -29,7 +29,7 @@ Le projet [**Data Food Consortium**](http://datafoodconsortium.org/) est pour l'
 * **L’étude des modèles d’organisation des circuits courts, l’analyse et la documentation des pratiques**, pour soutenir une structuration organisationnelle et économique performante.
 * **Le développement d’un standard ouvert permettant un partage fluide de données entre acteurs : le Data Food Consortium**
 
-**Détails de la mission**
+### **Détails de la mission**
 
 Les activités suivantes devront être menées à bien :
 
@@ -41,27 +41,27 @@ Les activités suivantes devront être menées à bien :
 * Maintien du **lien avec les partenaires** ([**Assemblée Virtuelle**](http://www.virtual-assembly.org/), [**RMT alimentation locale**](https://www.rmt-alimentation-locale.org/), [**INRAE**](https://www.inrae.fr/ "INRAE")) et financeurs ([**Fondation Daniel & Nina Carasso**](https://www.fondationcarasso.org/ "Fondation Carasso"), [**Fondation MACIF**](https://www.fondation-macif.org "Fondation MACIF"), [**Région Ile-de-France**](https://www.iledefrance.fr/ "Région Ile-de-France"))
 * **Communication au quotidien** : animation de la communauté sur Slack, amélioration et maintien du site internet, animation des réseaux sociaux
 
-**Compétences recherchées**
+### **Compétences recherchées**
 
 Nous recherchons une personne ayant un **bon relationnel**, habile dans l’animation et la **facilitation de communautés** à la fois virtuelles (via des réseaux sociaux ou outils de travail collaboratifs) et physiques (lors d’événements rassemblant l’écosystème), avec des compétences spécifiques en communication à la fois orale (conférences) et écrite (rédaction de newsletters, etc.), mais aussi familière des technologies du web et ayant une bonne connaissance du fonctionnement et de l’écosystème des **circuits courts alimentaires** (ou l’envie de développer une expertise spécifique sur ces sujets circuits courts & numérique).  
 La maîtrise de l’anglais est **obligatoire**.
 
-**Modalités de travail**
+### **Modalités de travail**
 
 * **1 jour / semaine** pour commencer, pouvant évoluer vers 2 jours / semaine
 * Possibilité de recrutement en mode salariat ou en mode freelance (facturant la structure)
 * **Lieu de travail** : l’équipe sur ce projet est aujourd’hui distribuée entre Paris, Crest et Nantes. Nous travaillons à distance, beaucoup via Slack et en visioconférence, depuis nos domiciles personnels. Si besoin, nous pouvons envisager la location d’un bureau en espace de coworking.
 
-**Rémunération**
+### **Rémunération**
 
 * Si salarié, base de rémunération 400€ brut / mois pour un 20%
 * Possibilité de mission sous forme freelance (tarif à négocier)
 
-**Possibilités d’évolution**
+### **Possibilités d’évolution**
 
 * Selon le déroulement de la mission, possibilité d’élargissement du volume de travail à 40% (2 jours / semaine)
 
-**Modalités de candidature :**
+### **Modalités de candidature**
 
 * Envoyer un email de candidature expliquant votre appétence pour les sujets traités, vos compétences actuelles et/ou votre motivation pour acquérir les compétences manquantes + un CV à [cette adresse](mailto:recrutement@openfoodfrance.org).
 * Date limite de candidature : **19 mai**
