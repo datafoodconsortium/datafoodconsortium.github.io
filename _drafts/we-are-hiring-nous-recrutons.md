@@ -17,7 +17,7 @@ img_credit:
 Nous sommes très heureux de vous annoncer que le projet Data Food Consortium franchit une nouvelle étape ! Nous aurons bientôt l'occasion de vous en dire plus :-)  
 En attendant, afin de préparer l'avenir **nous recrutons un.e chargé.e de mission** pour un poste de développement et animation de communauté.
 
-Tu as un bon relationel et une solide expérience dans l'animation de communauté ? Mêler alimentation et web ne te fait pas peur ? Et bien lis la suite !
+Tu as un bon relationel et une solide expérience dans l'animation de communauté et la coordination de projets ? Mêler alimentation et web ne te fait pas peur ? Et bien lis la suite !
 
 **Présentation de la structure Open Food France**
 
@@ -27,7 +27,7 @@ Le projet [**Data Food Consortium**](http://datafoodconsortium.org/) est pour l'
 
 * **Le développement de logiciels open source pour soutenir une organisation efficace et performante des circuits courts**
 * **L’étude des modèles d’organisation des circuits courts, l’analyse et la documentation des pratiques**, pour soutenir une structuration organisationnelle et économique performante.
-* **Le développement d’un standard ouvert permettant un partage fluide d’information: le Data Food Consortium**
+* **Le développement d’un standard ouvert permettant un partage fluide de données entre acteurs : le Data Food Consortium**
 
 **Détails de la mission**
 
