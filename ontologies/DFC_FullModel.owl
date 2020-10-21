@@ -21,6 +21,21 @@
         <owl:imports rdf:resource="http://datafoodconsortium.org/ontologies/DFC_ProductGlossary.owl"/>
         <owl:imports rdf:resource="http://datafoodconsortium.org/ontologies/DFC_TechnicalOntology.owl"/>
         <cc:license rdf:resource="https://www.gnu.org/licenses/agpl-3.0.en.html"/>
+        <dc:description xml:lang="en">A common vocabulary for digital food platforms (Business Part)</dc:description>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-28</dc:issued>
+        <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-21</dc:modified>
+        <dc:title xml:lang="en">Data Food Consortium Business</dc:title>
+        <vann:preferredNamespacePrefix>dfc-b</vann:preferredNamespacePrefix>
+        <rdfs:comment xml:lang="en">A common vocabulary for digital food platforms (Business Part)</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</owl:versionInfo>
+        <dc:publisher>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                <foaf:homepage rdf:resource="http://datafoodconsortium.org/"/>
+                <foaf:name>Data Food Consortium</foaf:name>
+            </rdf:Description>
+        </dc:publisher>
+
         <dc:contributor>
             <rdf:Description>
                 <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
