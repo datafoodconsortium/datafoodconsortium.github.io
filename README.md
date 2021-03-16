@@ -1,7 +1,9 @@
-Official website and blog of the Data Food Consoriutm
+Official former website and blog of the Data Food Consoritum
 =================================
 
-[datafoodconsortium.org](http://datafoodconsortium.org/)
+Left on March 2021, moved to 'oldsite' subdomain [oldsite.datafoodconsortium.org](http://oldsite.datafoodconsortium.org/)
+
+Actual website: [datafoodconsortium.org](http://datafoodconsortium.org/)
 
 Powered by Jekyll
 
